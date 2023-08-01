@@ -3,16 +3,16 @@ import '../components/Banner.css'
 
 
 const Banner = () => {
-    return(
+    return (
         <>
-        <div className="logo">
-            <img src={require('../assets/Tree.jpg').default} alt="Webpage Logo" />
-        </div>
-        <div className="banner">
-            <div className="app-name">
-                <h1>Find Your Tree</h1>
+            <div className="banner">
+                <div className="logo">
+                    <img src={require("../assets/tree-logo.gif")} alt="Webpage Logo" />
+                </div>
+                <div className="app-name">
+                    <h1>Find Your Tree</h1>
+                </div>
             </div>
-        </div>
         </>
     )
 }

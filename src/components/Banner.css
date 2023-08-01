@@ -16,11 +16,8 @@
     color: #333;
 }
 
-.logo{
-    margin-left: 10px;
-}
-
-.logo img{
-    width: 40px;
-    height: 40px;
+.img{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
 }
