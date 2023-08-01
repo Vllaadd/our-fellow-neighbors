@@ -1,0 +1,26 @@
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 80px;
+}
+
+.app-name{
+    flex: 1;
+}
+
+.app-name h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
