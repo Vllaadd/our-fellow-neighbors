@@ -1,12 +1,11 @@
 import './App.css';
+import Banner from './components/Banner';
 
 
 function App() {
   return (
     <>
-    <div>
-      <p>Find Your Tree</p>
-    </div>
+    <Banner />
     </>
   );
 }
