@@ -6,16 +6,19 @@ const Menu = () => {
         <>
             <table className="menu">
                 <tr>
-                    <td><a href="#">Home</a></td>
+                    <td><a href="about">About</a></td>
                 </tr>
                 <tr>
-                    <td><a href="fish">Fish</a></td>
+                    <td><a href="trees">Trees</a></td>
+                </tr>
+                <tr>
+                    <td><a href="fish">Birds</a></td>
                 </tr>
                 <tr>
                     <td><a href="animals">Animals</a></td>
                 </tr>
                 <tr>
-                    <td><a href="birds">Birds</a></td>
+                    <td><a href="birds">Fish</a></td>
                 </tr>
                 <tr>
                     <td> <a href="contact">Contact</a></td>
