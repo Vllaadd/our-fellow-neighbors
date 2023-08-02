@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import Menu from './components/Menu'
+import Home from './pages/Home'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <Banner />
     <Menu />
+    <Home />
     </>
   );
 }
