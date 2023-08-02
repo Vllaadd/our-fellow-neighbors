@@ -7,10 +7,10 @@ const Menu = () => {
         <div className="menu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="fish">NYC Waters Fish</a></li>
-                <li><a href="animals">NYC Animals</a></li>
-                <li><a href="birds">NYC Birds</a></li>
-                <li><a href="contact">Contact</a>Contact</li>
+                <li><a href="fish">Fish</a></li>
+                <li><a href="animals">Animals</a></li>
+                <li><a href="birds">Birds</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </div>
         </>
