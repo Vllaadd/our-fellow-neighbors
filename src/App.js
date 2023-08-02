@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Banner from './components/Banner';
 import Menu from './components/Menu'

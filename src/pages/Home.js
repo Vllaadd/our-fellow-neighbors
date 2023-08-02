@@ -8,22 +8,22 @@ const Home = () => {
                 <div className="row">
                     <form>
                         <input type="text" name="search" placeholder="Enter your tree" />
-                        <button type="submit">Search</button>
+                        <button type="button" class="btn btn-primary">Search</button>
                     </form>
                 </div>
                 <div className="row">
-                    <table className="list">
-                        <tr>
-                            <td>Tree 1</td>
+                    <table class="table-primary">
+                        <tr class="table-primary">
+                            <td class="table-primary">Japanese Zelkova</td>
                         </tr>
-                        <tr>
-                            <td>Tree 2</td>
+                        <tr class="table-primary">
+                            <td class="table-primary">London Plane Tree</td>
                         </tr>
-                        <tr>
-                            <td>Tree 3</td>
+                        <tr class="table-primary">
+                            <td class="table-primary">Norway Maple</td>
                         </tr>
-                        <tr>
-                            <td>Tree 4</td>
+                        <tr class="table-primary">
+                            <td class="table-primary">Tree 4</td>
                         </tr>
                     </table>
                 </div>
