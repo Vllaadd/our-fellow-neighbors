@@ -14,31 +14,24 @@ const Home = ({ treesData }) => {
     };
     return (
         <div className="container">
-            <div className="column">
+            <div className="row">
+            <div className="col-md-6">
                 <div className="row">
-                    <form>
-                        <input type="text" name="search" placeholder="Enter your tree" />
-                        <button type="button" class="btn btn-primary">Search</button>
-                    </form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                    </div>
                 </div>
                 <div className="row">
-                    <table class="table-primary">
-                        <tr class="table-primary">
-                            <td class="table-primary">Japanese Zelkova</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td class="table-primary">London Plane Tree</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td class="table-primary">Norway Maple</td>
-                        </tr>
-                        <tr class="table-primary">
-                            <td class="table-primary">Tree 4</td>
-                        </tr>
-                    </table>
+                    <ul class="list-group">
+                        <li class="list-group-item">Japanese Zelekova</li>
+                        <li class="list-group-item">Norway Maple</li>
+                        <li class="list-group-item">London Plane Tree</li>
+                        <li class="list-group-item">Oak</li>
+                    </ul>
                 </div>
             </div>
-            <div className="column">
+            <div className="col-md-6">
                 <div className="google-map">
                     <LoadScript
                         googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
@@ -59,6 +52,7 @@ const Home = ({ treesData }) => {
                     </LoadScript>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

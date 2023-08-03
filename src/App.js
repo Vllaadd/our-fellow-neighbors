@@ -14,7 +14,7 @@ function App() {
     <>
     <Banner />
     <Menu />
-    <Home treesData={treesData}/>
+    <Home treesData={treeData}/>
     </>
   );
 }
