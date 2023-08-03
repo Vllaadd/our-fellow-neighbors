@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import config from '../../config';
+
 
 const Map = ({ treesData }) => {
   const mapContainerStyle = {
@@ -15,7 +15,7 @@ const Map = ({ treesData }) => {
 
   return (
     <LoadScript
-      googleMapsApiKey={config.googleMapsApiKey}
+      googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
     >
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
