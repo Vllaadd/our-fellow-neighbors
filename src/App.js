@@ -3,7 +3,6 @@ import './App.css';
 import Banner from './components/Banner';
 import Menu from './components/Menu'
 import Home from './pages/Home'
-import Map from './pages/Map';
 
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
     <Banner />
     <Menu />
     <Home />
-    <Map />
     </>
   );
 }
