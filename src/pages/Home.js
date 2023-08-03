@@ -21,8 +21,6 @@ const Home = ({ treesData }) => {
                         <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
                         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                     </div>
-                </div>
-                <div className="row">
                     <ul class="list-group">
                         <li class="list-group-item">Japanese Zelekova</li>
                         <li class="list-group-item">Norway Maple</li>
