@@ -9,9 +9,6 @@ import Home from './pages/Home'
 
 function App() {
 
-  const treesData = 
-  { lat: 40.123, lng: -73.456, type: 'Japanese Zelkova' }
-
   return (
     <>
     <Banner />
