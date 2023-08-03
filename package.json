@@ -1,6 +1,7 @@
 {
   "name": "find-your-tree",
   "version": "0.1.0",
+  "main": "src/pages/Home.js",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
