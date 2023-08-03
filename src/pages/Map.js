@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import config from '../config';
+import config from '../../config';
 
 const Map = ({ treesData }) => {
   const mapContainerStyle = {
