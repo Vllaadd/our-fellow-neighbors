@@ -4,7 +4,7 @@ import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const Home = ({ treesData }) => {
     const [searchQuery, setSearchQuery] = useState("");
-    const [filterItems, setFilteredItems] = useState({treesData});
+    const [filterItems, setFilteredItems] = useState({filterItems});
 
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
@@ -13,7 +13,7 @@ const Home = ({ treesData }) => {
         tree.type.toLowerCase().includes(event.target.value.toLowerCase())
       );
   
-      setFilteredItems(filteredList);
+      setFilteredItems(filterItems);
     }
 
     const mapContainerStyle = {
