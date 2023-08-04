@@ -4,7 +4,7 @@ import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const Home = ({ treesData }) => {
     const [searchQuery, setSearchQuery] = useState("");
-    const [filterItems, setFilteredItems] = useState({filterItems});
+    const [filterItems, setFilteredItems] = useState([treesData]);
 
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
@@ -13,7 +13,7 @@ const Home = ({ treesData }) => {
         tree.type.toLowerCase().includes(event.target.value.toLowerCase())
       );
   
-      setFilteredItems(filterItems);
+      setFilteredItems(filteredList.slice(0, 5));
     }
 
     const mapContainerStyle = {
@@ -30,15 +30,14 @@ const Home = ({ treesData }) => {
             <div className="row">
             <div className="col-md-6">
                 <div className="row">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
+                    <div className="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
                         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                     </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">Japanese Zelekova</li>
-                        <li class="list-group-item">Norway Maple</li>
-                        <li class="list-group-item">London Plane Tree</li>
-                        <li class="list-group-item">Oak</li>
+                    <ul className="list-group">
+                      {filterItems.map((tree, index) => (
+                        <li key={index} className="list-group-item">{tree.type}</li>
+                      ))}
                     </ul>
                 </div>
             </div>
@@ -52,7 +51,7 @@ const Home = ({ treesData }) => {
                             center={center}
                             zoom={11}
                         >
-                            {treesData.map((tree, index) => (
+                            {filterItems.map((tree, index) => (
                                 <Marker
                                     key={index}
                                     position={{ lat: tree.lat, lng: tree.lng }}
