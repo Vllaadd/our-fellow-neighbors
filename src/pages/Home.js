@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import '../pages/Home.css'
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const Home = ({ treesData }) => {
+    const [searchQuery, setSearchQuery] = useState("");
+    const [filterItems, setFilteredItems] = useState({treesData});
+
+    const handleSearchChange = (event) => {
+        setSearchQuery(event.target.value);
+
+        const filteredList = treesData.filter((tree) =>
+        tree.type.toLowerCase().includes(event.target.value.toLowerCase())
+      );
+  
+      setFilteredItems(filteredList);
+    }
+
     const mapContainerStyle = {
         width: '100%',
         height: '500px'
