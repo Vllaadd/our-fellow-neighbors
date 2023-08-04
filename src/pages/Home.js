@@ -5,6 +5,7 @@ import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 const Home = ({ treesData }) => {
     const [searchQuery, setSearchQuery] = useState("");
     const [filterItems, setFilteredItems] = useState([treesData]);
+    const [selectedTree, setSelectedTree] = useState(null);
 
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
@@ -13,8 +14,16 @@ const Home = ({ treesData }) => {
         tree.type.toLowerCase().includes(event.target.value.toLowerCase())
       );
   
-      setFilteredItems(filteredList.slice(0, 5));
+      setFilteredItems(filteredList);
     }
+
+    const handleTreeClick = (tree) => {
+        if(selectedTree && selectedTree.type === tree.type){
+            setSelectedTree(null);
+        }else{
+            setSelectedTree(tree);
+        }
+    };
 
     const mapContainerStyle = {
         width: '100%',
@@ -31,14 +40,17 @@ const Home = ({ treesData }) => {
             <div className="col-md-6">
                 <div className="row">
                     <div className="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
+                        <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
                         <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                     </div>
+                    <div className="tree-list">
                     <ul className="list-group">
                       {filterItems.map((tree, index) => (
                         <li key={index} className="list-group-item">{tree.type}</li>
                       ))}
                     </ul>
+                    </div>
+                    
                 </div>
             </div>
             <div className="col-md-6">
