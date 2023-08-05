@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import '../pages/Home.css'
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
-const Home = ({ treeData }) => {
+const Home = ({ treesData }) => {
     const [searchQuery, setSearchQuery] = useState("");
-    const [filterItems, setFilteredItems] = useState([treeData]);
+    const [filterItems, setFilteredItems] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
 
     const handleSearchChange = (event) => {
