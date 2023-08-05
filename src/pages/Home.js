@@ -18,11 +18,7 @@ const Home = ({ treesData }) => {
     }
 
     const handleTreeClick = (tree) => {
-        if(selectedTree && selectedTree.type === tree.type){
-            setSelectedTree(null);
-        }else{
-            setSelectedTree(tree);
-        }
+        setSelectedTree(selectedTree => (selectedTree === tree ? null : tree));
     };
 
     const mapContainerStyle = {
@@ -40,13 +36,12 @@ const Home = ({ treesData }) => {
             <div className="col-md-6">
                 <div className="row">
                     <div className="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                        <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
                     </div>
                     <div className="tree-list">
                     <ul className="list-group">
                       {filterItems.map((tree, index) => (
-                        <li key={index} className="list-group-item">{tree.type}</li>
+                        <li key={index} className="list-group-item" onClick={() => handleTreeClick(tree)}>{tree.type}</li>
                       ))}
                     </ul>
                     </div>
@@ -66,8 +61,8 @@ const Home = ({ treesData }) => {
                             {filterItems.map((tree, index) => (
                                 <Marker
                                     key={index}
-                                    position={{ lat: tree.lat, lng: tree.lng }}
-                                    title={tree.type}
+                                    position={{ lat: selectedTree.lat, lng: selectedTree.lng }}
+                                    title={selectedTree.type}
                                 />
                             ))}
                         </GoogleMap>
