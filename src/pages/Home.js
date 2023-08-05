@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../pages/Home.css'
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
+import treeData from "../components/treeData";
 
 const Home = ({ treesData }) => {
     const [searchQuery, setSearchQuery] = useState("");
