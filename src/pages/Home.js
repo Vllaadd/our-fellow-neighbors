@@ -45,6 +45,7 @@ const Home = ({ treesData }) => {
                                 ))}
                             </ul>
                         </div>
+                        <div className="about"></div>
 
                     </div>
                 </div>
