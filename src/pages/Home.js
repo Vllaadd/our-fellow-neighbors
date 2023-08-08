@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../pages/Home.css'
+import About from '../components/About';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const Home = ({ treesData }) => {
@@ -45,7 +46,9 @@ const Home = ({ treesData }) => {
                                 ))}
                             </ul>
                         </div>
-                        <div className="about"></div>
+                        <div className="about">
+                            <About />
+                        </div>
 
                     </div>
                 </div>
@@ -61,7 +64,7 @@ const Home = ({ treesData }) => {
                             >
                                 {selectedTree && (
                                     <Marker
-                                        position={{ lat: selectedTree.lat, lng: selectedTree.lng }}
+                                        position={{ lat: selectedTree.coordinates.lat, lng: selectedTree.coordinates.lng }}
                                         title={selectedTree.type}
                                     />
                                 )}
