@@ -1,9 +1,8 @@
-/* CSS code to set a certain size frame for images within the about-div */
-img {
-    width: 200px; /* Set the width you desire */
-    height: 150px; /* Set the height you desire */
-    border: 1px solid #ccc; /* Add a border for visual separation */
-    margin-bottom: 10px; /* Add some spacing between images and text */
-    object-fit: cover; /* Ensure the image fits within the dimensions while maintaining aspect ratio */
-    display: block; /* Remove any inline spacing */
+.tree-img {
+    width: 400px; 
+    height: 250px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+    object-fit: cover; 
+    display: block; 
 }
