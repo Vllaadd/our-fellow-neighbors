@@ -12,11 +12,11 @@ const treeData = [
       img: require('../assets/japanese-zelkova-leaf.jpeg')
     },
     about: {
-      Name: "Name: Japanese Zelkova",
-      NativeTo: "Native To: Japan, China, Taiwan",
-      Height: "Height: Typically reaches 50-80 feet",
-      Lifespan: "Lifespan: Can live for over 100 years",
-      FunFact: "Fun Fact: Japanese Zlekova is often mistaken for the American Elm due to its similar appearance, and its popular alternative where Dutch Elm Disease is a concern"
+      Name: "Japanese Zelkova",
+      NativeTo: "Japan, China, Taiwan",
+      Height: "Typically reaches 50-80 feet",
+      Lifespan: "Can live for over 100 years",
+      FunFact: "Japanese Zlekova is often mistaken for the American Elm due to its similar appearance, and its popular alternative where Dutch Elm Disease is a concern"
     }
   },
   { lat: 40.694756, lng: -73.975830, type: 'London Plane Tree' }, 
