@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../pages/Home.css'
+import About from '../components/About';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const Home = ({ treesData }) => {
@@ -19,6 +20,8 @@ const Home = ({ treesData }) => {
 
     const handleTreeClick = (tree) => {
         setSelectedTree(selectedTree => (selectedTree === tree ? null : tree));
+        <About />
+        
     };
 
     const mapContainerStyle = {
@@ -46,6 +49,7 @@ const Home = ({ treesData }) => {
                             </ul>
                         </div>
                         <div className="about">
+                            {selectedTree && <About tree={selectedTree}/>}
                         </div>
                     </div>
                 </div>
