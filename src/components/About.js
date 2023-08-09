@@ -4,8 +4,8 @@ const About = ({ tree }) => {
     return (
         <div className="about-div">
             <h1>{tree.type}</h1>
-            <img src={tree.img.img} alt="Image" />
-            <img src={tree.img.leafImg} alt="Leaf Image" />
+            <img className="about-img" src={tree.img.img} alt="Image" />
+            <img className="about-img" src={tree.img.leafImg} alt="Leaf Image" />
             <p><strong>Name:</strong>{tree.about.Name}</p>
             <p><strong>Native To:</strong>{tree.about.NativeTo}</p>
             <p><strong>Height:</strong>{tree.about.Height}</p>
