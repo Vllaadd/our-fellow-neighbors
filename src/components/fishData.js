@@ -126,49 +126,49 @@ const fishData = [
         funFact: "Menhaden are known for their significant ecological role as filter feeders that help control plankton populations. Their oil-rich bodies have historically been used for various industrial and nutritional purposes."
 
     }, {
-            name: "Atlantic Needlefish",
-            behaviorAndDiet: "Atlantic Needlefish are predatory fish known for their long, slender bodies and needle-like beak. They primarily feed on smaller fish and crustaceans, using their sharp beak to strike and capture prey. These fish are often found near the water's surface and are known for their swift and agile swimming behavior.",
-            lifeSpan: "Atlantic Needlefish typically have a lifespan of around 3 to 5 years.",
-            reproductionAndLifeCycle: "Atlantic Needlefish reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then go through various developmental stages before reaching adulthood. They are part of the larger food web, both as predators and potential prey for larger fish and birds.",
-            predatorsAndPrey: "Atlantic Needlefish occupy a mid-level position in the marine food chain. They prey on smaller fish and crustaceans, while being targeted by larger predators such as larger fish, marine mammals, and seabirds.",
-            funFact: "One of the distinctive features of Atlantic Needlefish is their elongated, slender bodies and their sharp, pointed beak. These features make them well-suited for hunting in shallow coastal waters and estuaries. They are also known for their ability to leap out of the water, which can sometimes lead to them inadvertently landing in boats or onshore areas."
-          
-    },{
+        name: "Atlantic Needlefish",
+        behaviorAndDiet: "Atlantic Needlefish are predatory fish known for their long, slender bodies and needle-like beak. They primarily feed on smaller fish and crustaceans, using their sharp beak to strike and capture prey. These fish are often found near the water's surface and are known for their swift and agile swimming behavior.",
+        lifeSpan: "Atlantic Needlefish typically have a lifespan of around 3 to 5 years.",
+        reproductionAndLifeCycle: "Atlantic Needlefish reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then go through various developmental stages before reaching adulthood. They are part of the larger food web, both as predators and potential prey for larger fish and birds.",
+        predatorsAndPrey: "Atlantic Needlefish occupy a mid-level position in the marine food chain. They prey on smaller fish and crustaceans, while being targeted by larger predators such as larger fish, marine mammals, and seabirds.",
+        funFact: "One of the distinctive features of Atlantic Needlefish is their elongated, slender bodies and their sharp, pointed beak. These features make them well-suited for hunting in shallow coastal waters and estuaries. They are also known for their ability to leap out of the water, which can sometimes lead to them inadvertently landing in boats or onshore areas."
+
+    }, {
         name: "Spot",
-behaviorAndDiet: "Spot are schooling fish known for their silvery bodies and distinctive spot behind the gills. They primarily feed on plankton, small crustaceans, and aquatic insects. Spots often form large schools near the shore and estuaries.",
-lifeSpan: "Spot typically have a lifespan of 3 to 4 years.",
-reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
-funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
-},{
-    name: "Spot",
-behaviorAndDiet: "Spot are schooling fish known for their silvery bodies and distinctive spot behind the gills. They primarily feed on plankton, small crustaceans, and aquatic insects. Spots often form large schools near the shore and estuaries.",
-lifeSpan: "Spot typically have a lifespan of 3 to 4 years.",
-reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
-funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
-},{
-    name: "Striped Sea Robin",
-behaviorAndDiet: "Striped Sea Robin are bottom-dwelling fish with elongated bodies and pectoral fins that resemble wings. They primarily feed on small crustaceans, mollusks, and other bottom-dwelling organisms. They use their 'legs' to walk along the ocean floor.",
-lifeSpan: "Striped Sea Robin typically have a lifespan of 3 to 4 years.",
-reproductionAndLifeCycle: "Striped Sea Robin reproduce by laying adhesive eggs on the ocean floor. The male guards and tends to the eggs until they hatch. The larvae go through several stages of development before maturing into juvenile fish. They are an important part of the coastal ecosystem.",
-funFact: "One fascinating aspect of Striped Sea Robin is their unique pectoral fins that resemble legs. These fins are used to 'walk' along the ocean floor in search of prey. Despite their appearance, they are not related to true land-dwelling animals."
-},{
-    name: "Winter Skate",
-    behaviorAndDiet: "Winter Skate are cartilaginous fish related to rays and sharks. They primarily feed on a variety of bottom-dwelling organisms such as crustaceans, mollusks, and small fish. They use their flattened bodies to glide gracefully along the ocean floor.",
-    lifeSpan: "Winter Skate typically have a lifespan of 7 to 10 years.",
-    reproductionAndLifeCycle: "Winter Skate reproduce by laying eggs enclosed in leathery capsules known as 'mermaid's purses.' These egg cases are anchored to the ocean floor. The embryos develop within the capsules and eventually hatch as fully-formed juvenile skates. They play a role in maintaining balance in marine ecosystems.",
-    funFact: "One interesting fact about Winter Skate is their unique reproductive method using egg capsules. These capsules protect the developing embryos and are often found washed up on beaches, commonly referred to as 'mermaid's purses.' Winter Skates' flat bodies and unique reproductive strategy make them intriguing subjects for marine biology research."
-    },{
+        behaviorAndDiet: "Spot are schooling fish known for their silvery bodies and distinctive spot behind the gills. They primarily feed on plankton, small crustaceans, and aquatic insects. Spots often form large schools near the shore and estuaries.",
+        lifeSpan: "Spot typically have a lifespan of 3 to 4 years.",
+        reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
+        funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
+    }, {
+        name: "Spot",
+        behaviorAndDiet: "Spot are schooling fish known for their silvery bodies and distinctive spot behind the gills. They primarily feed on plankton, small crustaceans, and aquatic insects. Spots often form large schools near the shore and estuaries.",
+        lifeSpan: "Spot typically have a lifespan of 3 to 4 years.",
+        reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
+        funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
+    }, {
+        name: "Striped Sea Robin",
+        behaviorAndDiet: "Striped Sea Robin are bottom-dwelling fish with elongated bodies and pectoral fins that resemble wings. They primarily feed on small crustaceans, mollusks, and other bottom-dwelling organisms. They use their 'legs' to walk along the ocean floor.",
+        lifeSpan: "Striped Sea Robin typically have a lifespan of 3 to 4 years.",
+        reproductionAndLifeCycle: "Striped Sea Robin reproduce by laying adhesive eggs on the ocean floor. The male guards and tends to the eggs until they hatch. The larvae go through several stages of development before maturing into juvenile fish. They are an important part of the coastal ecosystem.",
+        funFact: "One fascinating aspect of Striped Sea Robin is their unique pectoral fins that resemble legs. These fins are used to 'walk' along the ocean floor in search of prey. Despite their appearance, they are not related to true land-dwelling animals."
+    }, {
+        name: "Winter Skate",
+        behaviorAndDiet: "Winter Skate are cartilaginous fish related to rays and sharks. They primarily feed on a variety of bottom-dwelling organisms such as crustaceans, mollusks, and small fish. They use their flattened bodies to glide gracefully along the ocean floor.",
+        lifeSpan: "Winter Skate typically have a lifespan of 7 to 10 years.",
+        reproductionAndLifeCycle: "Winter Skate reproduce by laying eggs enclosed in leathery capsules known as 'mermaid's purses.' These egg cases are anchored to the ocean floor. The embryos develop within the capsules and eventually hatch as fully-formed juvenile skates. They play a role in maintaining balance in marine ecosystems.",
+        funFact: "One interesting fact about Winter Skate is their unique reproductive method using egg capsules. These capsules protect the developing embryos and are often found washed up on beaches, commonly referred to as 'mermaid's purses.' Winter Skates' flat bodies and unique reproductive strategy make them intriguing subjects for marine biology research."
+    }, {
         name: "Smooth Dogfish",
-behaviorAndDiet: "Smooth Dogfish, also known as smooth-hound sharks, are small and slender sharks found in coastal waters. They primarily feed on a variety of prey including fish, crustaceans, and squid. They are known for their relatively docile behavior.",
-lifeSpan: "Smooth Dogfish typically have a lifespan of 20 to 25 years.",
-reproductionAndLifeCycle: "Smooth Dogfish reproduce via internal fertilization. The females have a longer gestation period, giving birth to live pups after several months. The pups are self-sufficient upon birth and grow relatively slowly. They play a role in maintaining the balance of marine ecosystems.",
-funFact: "One interesting fact about Smooth Dogfish is their social behavior. They often form schools and can be seen swimming near the surface in groups. Despite being sharks, they are not considered a threat to humans and are of significance to both commercial and recreational fisheries."
-},{
-    name: "Spiny Dogfish",
-behaviorAndDiet: "Spiny Dogfish are small, schooling sharks found in temperate and cold waters. They have a diverse diet that includes small fish, squid, and crustaceans. They often form large schools and are known for their migratory behavior.",
-lifeSpan: "Spiny Dogfish typically have a lifespan of 30 to 40 years.",
-reproductionAndLifeCycle: "Spiny Dogfish reproduce via internal fertilization. The females have a relatively long gestation period, giving birth to live pups after about 18 to 24 months. The pups are born fully formed and can be relatively independent at birth. Spiny Dogfish are an important predator in marine ecosystems.",
-funFact: "One intriguing fact about Spiny Dogfish is their unique adaptations. They possess spines in front of their dorsal fins, which can be mildly venomous. These spines are used as a defense mechanism against predators. Spiny Dogfish are also commercially valuable for their meat and liver oil."
-}
+        behaviorAndDiet: "Smooth Dogfish, also known as smooth-hound sharks, are small and slender sharks found in coastal waters. They primarily feed on a variety of prey including fish, crustaceans, and squid. They are known for their relatively docile behavior.",
+        lifeSpan: "Smooth Dogfish typically have a lifespan of 20 to 25 years.",
+        reproductionAndLifeCycle: "Smooth Dogfish reproduce via internal fertilization. The females have a longer gestation period, giving birth to live pups after several months. The pups are self-sufficient upon birth and grow relatively slowly. They play a role in maintaining the balance of marine ecosystems.",
+        funFact: "One interesting fact about Smooth Dogfish is their social behavior. They often form schools and can be seen swimming near the surface in groups. Despite being sharks, they are not considered a threat to humans and are of significance to both commercial and recreational fisheries."
+    }, {
+        name: "Spiny Dogfish",
+        behaviorAndDiet: "Spiny Dogfish are small, schooling sharks found in temperate and cold waters. They have a diverse diet that includes small fish, squid, and crustaceans. They often form large schools and are known for their migratory behavior.",
+        lifeSpan: "Spiny Dogfish typically have a lifespan of 30 to 40 years.",
+        reproductionAndLifeCycle: "Spiny Dogfish reproduce via internal fertilization. The females have a relatively long gestation period, giving birth to live pups after about 18 to 24 months. The pups are born fully formed and can be relatively independent at birth. Spiny Dogfish are an important predator in marine ecosystems.",
+        funFact: "One intriguing fact about Spiny Dogfish is their unique adaptations. They possess spines in front of their dorsal fins, which can be mildly venomous. These spines are used as a defense mechanism against predators. Spiny Dogfish are also commercially valuable for their meat and liver oil."
+    }
 ];
 
