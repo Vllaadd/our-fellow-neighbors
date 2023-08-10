@@ -1,8 +1,12 @@
 .banner{
+    position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
     height: 90px;
+    width: 100%;
+    z-index: 1000;
 }
 
 .app-name{
@@ -20,4 +24,8 @@
     width: 10px;
     height: 10px;
     object-fit: cover;
+}
+
+.container{
+    margin-top: 100px;
 }
