@@ -9,7 +9,17 @@ const HomeFish = ({ fish }) => {
     const handleFishSearch = (event) => {
         setFishQuery(event.target.value);
 
+        const filteredFish = fish.filter((fishData) => 
+            fishData.type.toLowerCase().includes(event.target.value.toLowerCase())
+        )
+        setFilteredFish(filteredFish);
+    };
+
+    const handleFishClick = (fish) => {
+        setSelectedFish(selectedFish => { selectedFish === fish ? null : fish});
+        <AboutFish />
     }
+
     return (
         <div className="container">
             <div className="row">
@@ -34,3 +44,5 @@ const HomeFish = ({ fish }) => {
         </div>
     )
 }
+
+export default HomeFish;

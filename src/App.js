@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Banner from './components/Banner'
 import Menu from './components/Menu'
-import Home from './pages/Home'
 import treeData from './components/treeData'
+import HomeTrees from './pages/HomeTrees';
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <>
     <Banner />
     <Menu />
-    <Home treesData={treeData}/>
+    <HomeTrees treesData={treeData}/>
     </>
   );
 }

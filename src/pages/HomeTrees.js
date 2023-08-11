@@ -8,7 +8,7 @@ const HomeTrees = ({ treesData }) => {
     const [filteredTrees, setFilteredTrees] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
 
-    const handleSearchChange = (event) => {
+    const handleTreeSearch = (event) => {
         setTreeQuery(event.target.value);
 
         const filteredTrees = treesData.filter((tree) =>
@@ -21,7 +21,6 @@ const HomeTrees = ({ treesData }) => {
     const handleTreeClick = (tree) => {
         setSelectedTree(selectedTree => (selectedTree === tree ? null : tree));
         <AboutTrees />
-        
     };
 
     const mapContainerStyle = {
@@ -39,7 +38,7 @@ const HomeTrees = ({ treesData }) => {
                 <div className="col-md-6">
                     <div className="row">
                         <div className="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleSearchChange} value={treeQuery}></input>
+                            <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleTreeSearch} value={treeQuery}></input>
                         </div>
                         <div className="tree-list">
                             <ul className="list-group">
