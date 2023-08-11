@@ -9,7 +9,7 @@ const Menu = () => {
                     <td><a href="about">About</a></td>
                 </tr>
                 <tr>
-                    <td><a href="trees">Trees</a></td>
+                    <td><a href="">Trees</a></td>
                 </tr>
                 <tr>
                     <td><a href="fish">Birds</a></td>
