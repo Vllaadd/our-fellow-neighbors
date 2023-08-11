@@ -140,12 +140,6 @@ const fishData = [
         reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
         funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
     }, {
-        name: "Spot",
-        behaviorAndDiet: "Spot are schooling fish known for their silvery bodies and distinctive spot behind the gills. They primarily feed on plankton, small crustaceans, and aquatic insects. Spots often form large schools near the shore and estuaries.",
-        lifeSpan: "Spot typically have a lifespan of 3 to 4 years.",
-        reproductionAndLifeCycle: "Spot reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then undergo various developmental stages before becoming juvenile fish. They serve as an important forage species for larger predatory fish.",
-        funFact: "One interesting aspect of Spot is the dark spot they have behind their gills, which gives them their name. This spot is more prominent in younger individuals and fades as they mature. Spot fish are popular among recreational anglers due to their abundance and relatively small size."
-    }, {
         name: "Striped Sea Robin",
         behaviorAndDiet: "Striped Sea Robin are bottom-dwelling fish with elongated bodies and pectoral fins that resemble wings. They primarily feed on small crustaceans, mollusks, and other bottom-dwelling organisms. They use their 'legs' to walk along the ocean floor.",
         lifeSpan: "Striped Sea Robin typically have a lifespan of 3 to 4 years.",
