@@ -8,8 +8,8 @@ const treeData = [
     type: 'Japanese Zelkova',
     img:
     {
-      img: require('../assets/Japanese-zelkova.png'),
-      leafImg: require('../assets/japanese-zelkova-leaf.jpeg')
+      img: require('../assets/trees/Japanese-zelkova.png'),
+      leafImg: require('../assets/trees/japanese-zelkova-leaf.jpeg')
     },
     about: {
       Name: "Japanese Zelkova",
@@ -28,8 +28,8 @@ const treeData = [
     type: 'London Plane Tree',
     img:
     {
-      img: require('../assets/london-plane-tree.jpeg'),
-      leafImg: require('../assets/london-plane-tree-leaf.jpeg')
+      img: require('../assets/trees/london-plane-tree.jpeg'),
+      leafImg: require('../assets/trees/london-plane-tree-leaf.jpeg')
     },
     about: {
       Name: 'London Plane Tree',
@@ -48,8 +48,8 @@ const treeData = [
     type: 'Norway Maple',
     img:
     {
-      img: require('../assets/norway-maple.jpeg'),
-      leafImg: require('../assets/norway-maple-leaf.jpeg')
+      img: require('../assets/trees/norway-maple.jpeg'),
+      leafImg: require('../assets/trees/norway-maple-leaf.jpeg')
     },
     about: {
       Name: 'Norway Maple',
@@ -68,8 +68,8 @@ const treeData = [
     type: 'Oak',
     img:
     {
-      img: require('../assets/oak.jpeg'),
-      leafImg: require('../assets/oak-leaf.jpeg')
+      img: require('../assets/trees/oak.jpeg'),
+      leafImg: require('../assets/trees/oak-leaf.jpeg')
     },
     about: {
       Name: 'Oak',
@@ -89,8 +89,8 @@ const treeData = [
     type: 'American Elm',
     img:
     {
-      img: require('../assets/american-elm.webp'),
-      leafImg: require('../assets/american-elm-leaf.jpeg')
+      img: require('../assets/trees/american-elm.webp'),
+      leafImg: require('../assets/trees/american-elm-leaf.jpeg')
     },
     about: {
       Name: 'American Elm',
@@ -110,8 +110,8 @@ const treeData = [
     type: 'Tulip Tree',
     img:
     {
-      img: require('../assets/tulip-tree.jpeg'),
-      leafImg: require('../assets/tulip-tree-leaf.jpeg')
+      img: require('../assets/trees/tulip-tree.jpeg'),
+      leafImg: require('../assets/trees/tulip-tree-leaf.jpeg')
     },
     about: {
       Name: 'Tulip Tree',
@@ -131,8 +131,8 @@ const treeData = [
     type: 'Red Maple',
     img:
     {
-      img: require('../assets/red-maple.jpeg'),
-      leafImg: require('../assets/red-maple-leaf.webp')
+      img: require('../assets/trees/red-maple.jpeg'),
+      leafImg: require('../assets/trees/red-maple-leaf.webp')
     },
     about: {
       Name: 'Red Maple',
@@ -152,8 +152,8 @@ const treeData = [
     type: 'White Oak',
     img:
     {
-      img: require('../assets/white-oak.webp'),
-      leafImg: require('../assets/white-oak-leaf.jpeg')
+      img: require('../assets/trees/white-oak.webp'),
+      leafImg: require('../assets/trees/white-oak-leaf.jpeg')
     },
     about: {
       Name: 'White Oak',
@@ -173,8 +173,8 @@ const treeData = [
     type: 'Black Cherry',
     img:
     {
-      img: require('../assets/black-cherry.jpeg'),
-      leafImg: require('../assets/black-cherry-leaf.jpeg')
+      img: require('../assets/trees/black-cherry.jpeg'),
+      leafImg: require('../assets/trees/black-cherry-leaf.jpeg')
     },
     about: {
       Name: 'Black Cherry',
@@ -193,8 +193,8 @@ const treeData = [
     type: 'Eastern Redcedar',
     img:
     {
-      img: require('../assets/eastern-red-cedar.jpeg'),
-      leafImg: require('../assets/eastern-red-cedar-leaf.jpeg')
+      img: require('../assets/trees/eastern-red-cedar.jpeg'),
+      leafImg: require('../assets/trees/eastern-red-cedar-leaf.jpeg')
     },
     about: {
       Name: 'Eastern Redcedar',
@@ -214,8 +214,8 @@ const treeData = [
     type: 'Sugar Maple',
     img:
     {
-      img: require('../assets/sugar-maple.jpeg'),
-      leafImg: require('../assets/sugar-maple-leaf.jpeg')
+      img: require('../assets/trees/sugar-maple.jpeg'),
+      leafImg: require('../assets/trees/sugar-maple-leaf.jpeg')
     },
     about: {
       Name: 'Sugar Maple',
@@ -235,8 +235,8 @@ const treeData = [
     type: 'Sassafras',
     img:
     {
-      img: require('../assets/sassafras.jpeg'),
-      leafImg: require('../assets/sassafras-leaf.jpeg')
+      img: require('../assets/trees/sassafras.jpeg'),
+      leafImg: require('../assets/trees/sassafras-leaf.jpeg')
     },
     about: {
       Name: 'Sugar Maple',
@@ -256,8 +256,8 @@ const treeData = [
     type: 'Hackberry',
     img:
     {
-      img: require('../assets/hackberry.jpeg'),
-      leafImg: require('../assets/hackberry-leaf.jpeg')
+      img: require('../assets/trees/hackberry.jpeg'),
+      leafImg: require('../assets/trees/hackberry-leaf.jpeg')
     },
     about: {
       Name: 'Hackberry',
@@ -277,8 +277,8 @@ const treeData = [
     type: 'Bald Cypress',
     img:
     {
-      img: require('../assets/bald-cypress.webp'),
-      leafImg: require('../assets/bald-cypress-leaf.jpeg')
+      img: require('../assets/trees/bald-cypress.webp'),
+      leafImg: require('../assets/trees/bald-cypress-leaf.jpeg')
     },
     about: {
       Name: 'Bald Cypress',
@@ -298,8 +298,8 @@ const treeData = [
     type: 'Red Horse Chestnut',
     img:
     {
-      img: require('../assets/red-horse-chestnut.jpeg'),
-      leafImg: require('../assets/red-horse-chestnut-leaf.jpg')
+      img: require('../assets/trees/red-horse-chestnut.jpeg'),
+      leafImg: require('../assets/trees/red-horse-chestnut-leaf.jpg')
     },
     about: {
       Name: 'Red Horse Chestnut',
@@ -319,8 +319,8 @@ const treeData = [
     type: 'Silver Maple',
     img:
     {
-      img: require('../assets/silver-maple.jpeg'),
-      leafImg: require('../assets/silver-maple-leaf.jpg')
+      img: require('../assets/trees/silver-maple.jpeg'),
+      leafImg: require('../assets/trees/silver-maple-leaf.jpg')
     },
     about: {
       Name: 'Silver Maple',
@@ -340,8 +340,8 @@ const treeData = [
     type: 'Honey Locust',
     img:
     {
-      img: require('../assets/honey-locust.webp'),
-      leafImg: require('../assets/honey-locust-leaf.webp')
+      img: require('../assets/trees/honey-locust.webp'),
+      leafImg: require('../assets/trees/honey-locust-leaf.webp')
     },
     about: {
       Name: 'Honey Locust',
@@ -361,8 +361,8 @@ const treeData = [
     type: 'Black Tupelo',
     img:
     {
-      img: require('../assets/black-tupelo.jpeg'),
-      leafImg: require('../assets/black-tupelo-leaf.jpeg')
+      img: require('../assets/trees/black-tupelo.jpeg'),
+      leafImg: require('../assets/trees/black-tupelo-leaf.jpeg')
     },
     about: {
       Name: 'Black Tupelo',
@@ -382,8 +382,8 @@ const treeData = [
     type: 'Basswood',
     img:
     {
-      img: require('../assets/basswood.jpeg'),
-      leafImg: require('../assets/basswood-leaf.jpeg')
+      img: require('../assets/trees/basswood.jpeg'),
+      leafImg: require('../assets/trees/basswood-leaf.jpeg')
     },
     about: {
       Name: 'Basswood',
@@ -403,8 +403,8 @@ const treeData = [
     type: 'Southern Magnolia',
     img:
     {
-      img: require('../assets/southern-magnolia.avif'),
-      leafImg: require('../assets/southern-magnolia-leaf.jpeg')
+      img: require('../assets/trees/southern-magnolia.avif'),
+      leafImg: require('../assets/trees/southern-magnolia-leaf.jpeg')
     },
     about: {
       Name: 'Southern Magnolia',
@@ -423,8 +423,8 @@ const treeData = [
     type: 'Buckeye',
     img:
     {
-      img: require('../assets/buckeye.jpeg'),
-      leafImg: require('../assets/buckeye-leaf.jpeg')
+      img: require('../assets/trees/buckeye.jpeg'),
+      leafImg: require('../assets/trees/buckeye-leaf.jpeg')
     },
     about: {
       Name: 'Buckeye',
@@ -443,8 +443,8 @@ const treeData = [
     type: 'Pignut Hickory',
     img:
     {
-      img: require('../assets/pignut-tree.jpg'),
-      leafImg: require('../assets/pignut-hickory-leave.jpeg')
+      img: require('../assets/trees/pignut-tree.jpg'),
+      leafImg: require('../assets/trees/pignut-hickory-leave.jpeg')
     },
     about: {
       Name: 'Pignut Hickory',
