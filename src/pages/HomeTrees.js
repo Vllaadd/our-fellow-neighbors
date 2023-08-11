@@ -1,26 +1,26 @@
 import React, { useState } from "react";
-import '../pages/Home.css'
-import About from '../components/About';
+import "../pages/HomeTrees.css";
+import AboutTrees from '../pages/AboutTrees'
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
-const Home = ({ treesData }) => {
-    const [searchQuery, setSearchQuery] = useState("");
-    const [filterItems, setFilteredItems] = useState([]);
+const HomeTrees = ({ treesData }) => {
+    const [treeQuery, setTreeQuery] = useState("");
+    const [filteredTrees, setFilteredTrees] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
 
     const handleSearchChange = (event) => {
-        setSearchQuery(event.target.value);
+        setTreeQuery(event.target.value);
 
-        const filteredList = treesData.filter((tree) =>
+        const filteredTrees = treesData.filter((tree) =>
             tree.type.toLowerCase().includes(event.target.value.toLowerCase())
         );
 
-        setFilteredItems(filteredList);
+        setFilteredTrees(filteredTrees);
     }
 
     const handleTreeClick = (tree) => {
         setSelectedTree(selectedTree => (selectedTree === tree ? null : tree));
-        <About />
+        <AboutTrees />
         
     };
 
@@ -39,17 +39,17 @@ const Home = ({ treesData }) => {
                 <div className="col-md-6">
                     <div className="row">
                         <div className="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleSearchChange} value={searchQuery}></input>
+                            <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleSearchChange} value={treeQuery}></input>
                         </div>
                         <div className="tree-list">
                             <ul className="list-group">
-                                {filterItems.map((tree, index) => (
+                                {filteredTrees.map((tree, index) => (
                                     <li key={index} className="list-group-item" onClick={() => handleTreeClick(tree)}>{tree.type}</li>
                                 ))}
                             </ul>
                         </div>
-                        <div className="about">
-                            {selectedTree && <About tree={selectedTree}/>}
+                        <div className="tree-about">
+                            {selectedTree && <AboutTrees tree={selectedTree}/>}
                         </div>
                     </div>
                 </div>
@@ -79,4 +79,4 @@ const Home = ({ treesData }) => {
 }
 
 
-export default Home;
+export default HomeTrees;
