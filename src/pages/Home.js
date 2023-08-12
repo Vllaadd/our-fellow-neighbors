@@ -19,3 +19,5 @@ const Home = () => {
             incredible city with us humans.</h5>
     </div>
 }
+
+export default Home;
