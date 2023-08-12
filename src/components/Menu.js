@@ -4,26 +4,28 @@ import '../components/Menu.css'
 const Menu = () => {
     return (
         <>
-            <table className="menu">
-                <tr>
-                    <td><a href="about">About</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Trees</a></td>
-                </tr>
-                <tr>
-                    <td><a href="fish">Birds</a></td>
-                </tr>
-                <tr>
-                    <td><a href="animals">Animals</a></td>
-                </tr>
-                <tr>
-                    <td><a href="birds">Fish</a></td>
-                </tr>
-                <tr>
-                    <td> <a href="contact">Contact</a></td>
-                </tr>
-            </table>
+            <nav>
+                <table className="menu">
+                    <tr>
+                        <td><Link to="/">Home</Link></td>
+                    </tr>
+                    <tr>
+                        <td><Link to="/trees">Trees</Link></td>
+                    </tr>
+                    <tr>
+                        <td><Link to="/fish">Fish</Link></td>
+                    </tr>
+                    <tr>
+                        <td><Link to="animals">Animals</Link></td>
+                    </tr>
+                    <tr>
+                        <td><Link to="birds">Brids</Link></td>
+                    </tr>
+                    <tr>
+                        <td> <Link to="contact">Contact</Link></td>
+                    </tr>
+                </table>
+            </nav>
         </>
     )
 }
