@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from './pages/Home';
 import HomeTrees from './pages/HomeTrees';
 import HomeFish from './pages/HomeFish';
 

@@ -1,8 +1,8 @@
 import React from "react";
 
 const Home = () => {
-    return
-    <div className="container">
+    return(
+        <div className="container">
         <h1>Hello fellow New Yorkers
             and everyone else interested in our
             great and diverse city! </h1>
@@ -18,6 +18,7 @@ const Home = () => {
             world of animals, fish, birds, and trees that share this
             incredible city with us humans.</h5>
     </div>
+    )
 }
 
 export default Home;

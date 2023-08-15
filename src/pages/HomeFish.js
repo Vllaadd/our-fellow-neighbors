@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import AboutFish from "./AboutFish";
 
 const HomeFish = ({ fish }) => {
@@ -16,7 +16,7 @@ const HomeFish = ({ fish }) => {
     };
 
     const handleFishClick = (fish) => {
-        setSelectedFish(selectedFish => { selectedFish === fish ? null : fish});
+        setSelectedFish(selectedFish => (selectedFish === fish ? null : fish));
         <AboutFish />
     }
 
