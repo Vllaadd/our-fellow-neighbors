@@ -2,18 +2,26 @@
   "name": "find-your-tree",
   "version": "1.0.0",
   "description": "",
-  "main": "config.js",
+  "main": "Home.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vllaadd/find-your-tree.git"
   },
-  "author": "",
+  "author": "Vlad Zizic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vllaadd/find-your-tree/issues"
   },
-  "homepage": "https://github.com/Vllaadd/find-your-tree#readme"
+  "homepage": "https://github.com/Vllaadd/find-your-tree#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1"
+  }
 }
