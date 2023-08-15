@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './pages/Home';
@@ -11,7 +11,6 @@ function App() {
 
   return (
     <Router>
-      <Switch>
       <Route path='/home'>
               <Home />
         </Route>
@@ -27,7 +26,6 @@ function App() {
         <Route path='/birds'>
               <HomeFish />
         </Route>
-      </Switch>
     </Router>
   ); 
    
