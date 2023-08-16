@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Vllaadd/find-your-tree/issues"
   },
-  "homepage": "/",
+  "homepage": "/home",
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "bootstrap": "^5.3.1",
