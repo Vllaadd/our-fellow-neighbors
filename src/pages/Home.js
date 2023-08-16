@@ -4,7 +4,7 @@ const Home = () => {
     return(
         <div className="container">
         <h1>Hello fellow New Yorkers
-            and everyone else interested in our
+            and everyone interested in our
             great and diverse city! </h1>
         <h5>Welcome to this page with a mission to raise awareness
             about the importance of maintaining balance with our
