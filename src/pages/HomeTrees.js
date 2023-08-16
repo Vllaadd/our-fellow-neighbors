@@ -3,7 +3,7 @@ import "../pages/HomeTrees.css";
 import AboutTrees from '../pages/AboutTrees'
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
-const HomeTrees = ({ treesData }) => {
+const HomeTrees = ({ trees }) => {
     const [treeQuery, setTreeQuery] = useState("");
     const [filteredTrees, setFilteredTrees] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
@@ -11,7 +11,7 @@ const HomeTrees = ({ treesData }) => {
     const handleTreeSearch = (event) => {
         setTreeQuery(event.target.value);
 
-        const filteredTrees = treesData.filter((tree) =>
+        const filteredTrees = trees.filter((tree) =>
             tree.type.toLowerCase().includes(event.target.value.toLowerCase())
         );
 

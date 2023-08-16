@@ -15,7 +15,7 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/trees" element={<HomeTrees />} />
+        <Route path="/trees" element={<HomeTrees trees={treesData}/>} />
         <Route path="/fish" element={<HomeFish />} />
       </Routes>
     </Router>
