@@ -1,0 +1,9 @@
+.container{
+    padding-top: 25px;
+    padding-left: 125px;
+}
+
+.fish-list{
+    max-height: 600px;
+    overflow-y: auto;
+}

@@ -8,7 +8,7 @@ const Menu = () => {
             <nav>
                 <table className="menu">
                     <tr>
-                        <td><Link to="/">Home</Link></td>
+                        <td><Link to="/home">Home</Link></td>
                     </tr>
                     <tr>
                         <td><Link to="/trees">Trees</Link></td>

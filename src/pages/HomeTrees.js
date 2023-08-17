@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../pages/HomeTrees.css";
 import AboutTrees from './AboutTrees';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const HomeTrees = ({ trees }) => {
-    console.log(trees[0].type);
     const [treeQuery, setTreeQuery] = useState("");
     const [filteredTrees, setFilteredTrees] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
+
+    useEffect(() => {
+        setFilteredTrees(trees);
+    }, [trees]);
 
     const handleTreeSearch = (event) => {
         setTreeQuery(event.target.value);

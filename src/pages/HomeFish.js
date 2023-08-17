@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import './HomeFish.css';
 import AboutFish from "./AboutFish";
 
 const HomeFish = ({ fish }) => {
     const [fishQuery, setFishQuery] = useState("")
     const [filteredFish, setFilteredFish] = useState([]);
     const [selectedFish, setSelectedFish] = useState(null);
+
+    useEffect(() => {
+        setFilteredFish(fish);
+    }, [fish]);
 
     const handleFishSearch = (x) => {
         setFishQuery(x.target.value);
