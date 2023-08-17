@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import AboutFish from "./AboutFish";
 
 const HomeFish = ({ fish }) => {
-    console.log(fish[1].name);
     const [fishQuery, setFishQuery] = useState("")
     const [filteredFish, setFilteredFish] = useState([]);
     const [selectedFish, setSelectedFish] = useState(null);
