@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
+
 const HomeMammals = ({mammals}) => {
-    const [mammalQuert, setMammalQuery] = useState("");
+    console.log(mammals[0].name);
+    const [mammalQuery, setMammalQuery] = useState("");
     const[filteredMammals, setFilteredMammals] = useState([]);
     const[selectedMammals, setSelectedMammals] = useState(null);
 
@@ -26,11 +28,11 @@ const HomeMammals = ({mammals}) => {
             <div className="row">
                 <div className="col-md-6">
                 <div className="input-group mb-3">
-                        <input type="text" className="form-control" placeholder="Find Your Mammal" aria-label="Find Your Mammal" aria-describedby="button-addon2" onChange={handleMammalhSearchj} value={mammalQuert}></input>
+                        <input type="text" className="form-control" placeholder="Find Your Mammal" aria-label="Find Your Mammal" aria-describedby="button-addon2" onChange={handleMammalSearch} value={mammalQuery}></input>
                     </div>
                     <div className="fish-list">
                             <ul className="list-group">
-                                {filteredMammals.map((mammals, index) => (
+                                {filteredMammals.map((mammal, index) => (
                                     <li key={index} className="list-group-item" onClick={() => handleMammalClick(mammal)}>{mammal.name}</li>
                                 ))}
                             </ul>

@@ -10,6 +10,7 @@ import Menu from './components/Menu';
 import Home from './pages/Home';
 import HomeTrees from './pages/HomeTrees';
 import HomeFish from './pages/HomeFish';
+import HomeMammals from './pages/HomeMammals';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/trees" element={<HomeTrees trees={treeData}/>} />
         <Route path="/fish" element={<HomeFish fish={fishData}/>} />
-        <Route path="/mammals" element={<HomeMammals fish={mammalsData}/>} />
+        <Route path="/mammals" element={<HomeMammals mammals={mammalsData}/>} />
       </Routes>
     </Router>
   );

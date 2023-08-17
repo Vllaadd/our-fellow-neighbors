@@ -17,7 +17,7 @@ const Menu = () => {
                         <td><Link to="/fish">Fish</Link></td>
                     </tr>
                     <tr>
-                        <td><Link to="animals">Animals</Link></td>
+                        <td><Link to="mammals">Mammals</Link></td>
                     </tr>
                     <tr>
                         <td><Link to="birds">Brids</Link></td>

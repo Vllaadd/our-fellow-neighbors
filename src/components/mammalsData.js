@@ -79,3 +79,5 @@ const mammalsData = [
 
     }
 ]
+
+export default mammalsData;
