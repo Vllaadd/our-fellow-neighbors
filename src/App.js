@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import treeData from './components/treeData';
 import fishData from './components/fishData';
+import mammalsData from './components/mammalsData';
 import Banner from './components/Banner';
 import Menu from './components/Menu';
 import Home from './pages/Home';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/trees" element={<HomeTrees trees={treeData}/>} />
         <Route path="/fish" element={<HomeFish fish={fishData}/>} />
+        <Route path="/mammals" element={<HomeMammals fish={mammalsData}/>} />
       </Routes>
     </Router>
   );
