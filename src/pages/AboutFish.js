@@ -1,9 +1,9 @@
 import React from "react";
 
-const AboutFish = ({fish}) => {
+const AboutFish = ({fishie}) => {
     return (
         <dib>
-            <h1>{fish.name}</h1>
+            <h1>{fishie.name}</h1>
         </dib>
     )
 }

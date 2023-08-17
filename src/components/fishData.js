@@ -166,3 +166,5 @@ const fishData = [
     }
 ];
 
+export default fishData;
+

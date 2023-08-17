@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "../pages/HomeTrees.css";
-import AboutTrees from '../pages/AboutTrees';
+import AboutTrees from './AboutTrees';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
 const HomeTrees = ({ trees }) => {
+    console.log(trees[0].type);
     const [treeQuery, setTreeQuery] = useState("");
     const [filteredTrees, setFilteredTrees] = useState([]);
     const [selectedTree, setSelectedTree] = useState(null);
@@ -37,7 +38,7 @@ const HomeTrees = ({ trees }) => {
                 <div className="col-md-6">
                     <div className="row">
                         <div className="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleTreeSearch} value={treeQuery}></input>
+                            <input type="text" className="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleTreeSearch} value={treeQuery}></input>
                         </div>
                         <div className="tree-list">
                             <ul className="list-group">
