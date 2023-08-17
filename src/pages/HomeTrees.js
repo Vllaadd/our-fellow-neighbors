@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../pages/HomeTrees.css";
 import AboutTrees from '../pages/AboutTrees';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import treeData from "../components/treeData";
 
 const HomeTrees = ({ trees }) => {
     const [treeQuery, setTreeQuery] = useState("");
@@ -21,7 +20,6 @@ const HomeTrees = ({ trees }) => {
 
     const handleTreeClick = (tree) => {
         setSelectedTree(selectedTree => (selectedTree === tree ? null : tree));
-        // <AboutTrees trees={treeData}/>
     };
 
     const mapContainerStyle = {

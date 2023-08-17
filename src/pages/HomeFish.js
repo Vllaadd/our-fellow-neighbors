@@ -9,15 +9,14 @@ const HomeFish = ({ fish }) => {
     const handleFishSearch = (event) => {
         setFishQuery(event.target.value);
 
-        const filteredFish = fish.filter((fishData) => 
-            fishData.type.toLowerCase().includes(event.target.value.toLowerCase())
+        const filteredFish = fish.filter((fishie) => 
+            fishie.type.toLowerCase().includes(event.target.value.toLowerCase())
         )
         setFilteredFish(filteredFish);
     };
 
-    const handleFishClick = (fish) => {
-        setSelectedFish(selectedFish => (selectedFish === fish ? null : fish));
-        <AboutFish />
+    const handleFishClick = (fishie) => {
+        setSelectedFish(selectedFish => (selectedFish === fishie ? null : fishie));
     }
 
     return (
@@ -29,7 +28,7 @@ const HomeFish = ({ fish }) => {
                     </div>
                     <div className="fish-list">
                             <ul className="list-group">
-                                {filteredFish.map((fish, index) => (
+                                {filteredFish.map((fishie, index) => (
                                     <li key={index} className="list-group-item" onClick={() => handleFishClick(fish)}>{fish.name}</li>
                                 ))}
                             </ul>
@@ -37,7 +36,7 @@ const HomeFish = ({ fish }) => {
                 </div>
                 <div className="col-md-6">
                 <div className="fish-about">
-                            {selectedFish && <AboutFish fish={selectedFish}/>}
+                            {selectedFish && <AboutFish fishie={selectedFish}/>}
                         </div>
                 </div>
             </div>

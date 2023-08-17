@@ -8,6 +8,7 @@ import Menu from './components/Menu';
 import Home from './pages/Home';
 import HomeTrees from './pages/HomeTrees';
 import HomeFish from './pages/HomeFish';
+import fishData from './components/fishData';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/trees" element={<HomeTrees trees={treeData}/>} />
-        <Route path="/fish" element={<HomeFish />} />
+        <Route path="/fish" element={<HomeFish fish={fishData}/>} />
       </Routes>
     </Router>
   );
