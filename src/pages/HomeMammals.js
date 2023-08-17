@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import AboutMammal from './AboutMammal';
 
 
 const HomeMammals = ({mammals}) => {

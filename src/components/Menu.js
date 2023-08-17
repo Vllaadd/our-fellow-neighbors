@@ -17,13 +17,13 @@ const Menu = () => {
                         <td><Link to="/fish">Fish</Link></td>
                     </tr>
                     <tr>
-                        <td><Link to="mammals">Mammals</Link></td>
+                        <td><Link to="/mammals">Mammals</Link></td>
                     </tr>
                     <tr>
-                        <td><Link to="birds">Brids</Link></td>
+                        <td><Link to="/birds">Brids</Link></td>
                     </tr>
                     <tr>
-                        <td> <Link to="contact">Contact</Link></td>
+                        <td> <Link to="/contact">Contact</Link></td>
                     </tr>
                 </table>
             </nav>
