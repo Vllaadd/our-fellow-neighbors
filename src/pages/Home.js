@@ -3,10 +3,10 @@ import React from "react";
 const Home = () => {
     return(
         <div className="container">
-        <h1>Hello fellow New Yorkers
+        <h3>Hello fellow New Yorkers
             and everyone interested in our
-            great and diverse city! </h1>
-        <h5>Welcome to this page with a mission to raise awareness
+            great and diverse city! </h3>
+        <h5>This page has a mission to raise awareness
             about the importance of maintaining balance with our
             non-human neighbors. While New York City is globally
             renowned for its cultural diversity, what often goes
