@@ -1,5 +1,5 @@
 import React from "react";
-import '../pages/AboutTrees.css'
+import '../pages/css/AboutTrees.css'
 
 const AboutTrees = ({ tree }) => {
     return (

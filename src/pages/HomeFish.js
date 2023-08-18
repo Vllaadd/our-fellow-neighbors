@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './HomeFish.css';
+import './css/HomeFish.css';
 import AboutFish from "./AboutFish";
 
 const HomeFish = ({ fish }) => {

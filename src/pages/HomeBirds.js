@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react";
 import AboutBird from "./AboutBird";
-import "../pages/HomeBirds.css";
+import "../pages/css/HomeBirds.css";
 
 const HomeBirds = ({birds}) => {
     const [birdsQuery, setBirdsQuery] = useState("");

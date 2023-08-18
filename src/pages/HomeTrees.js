@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../pages/HomeTrees.css";
+import "../pages/css/HomeTrees.css";
 import AboutTrees from './AboutTrees';
 import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
