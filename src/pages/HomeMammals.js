@@ -3,7 +3,6 @@ import AboutMammal from './AboutMammal';
 
 
 const HomeMammals = ({mammals}) => {
-    console.log(mammals[0].name);
     const [mammalQuery, setMammalQuery] = useState("");
     const[filteredMammals, setFilteredMammals] = useState([]);
     const[selectedMammals, setSelectedMammals] = useState(null);

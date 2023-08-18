@@ -5,6 +5,7 @@ import './App.css';
 import treeData from './components/treeData';
 import fishData from './components/fishData';
 import mammalsData from './components/mammalsData';
+import birdsData from './components/birdsData';
 import Banner from './components/Banner';
 import Menu from './components/Menu';
 import Home from './pages/Home';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/trees" element={<HomeTrees trees={treeData}/>} />
         <Route path="/fish" element={<HomeFish fish={fishData}/>} />
         <Route path="/mammals" element={<HomeMammals mammals={mammalsData}/>} />
+        <Route path="/birds" element={<HomeBirds birds={birdsData}/>} />
       </Routes>
     </Router>
   );
