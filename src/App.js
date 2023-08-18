@@ -13,6 +13,7 @@ import HomeTrees from './pages/HomeTrees';
 import HomeFish from './pages/HomeFish';
 import HomeMammals from './pages/HomeMammals';
 import HomeBirds from './pages/HomeBirds';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/fish" element={<HomeFish fish={fishData}/>} />
         <Route path="/mammals" element={<HomeMammals mammals={mammalsData}/>} />
         <Route path="/birds" element={<HomeBirds birds={birdsData}/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
     </Router>
   );
