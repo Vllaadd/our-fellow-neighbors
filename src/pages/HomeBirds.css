@@ -1,0 +1,9 @@
+.container{
+    padding-top: 25px;
+    padding-left: 125px;
+}
+
+.bird-list{
+    max-height: 500px;
+    overflow-y: auto;
+}

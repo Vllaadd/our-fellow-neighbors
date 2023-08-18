@@ -1,25 +1,26 @@
 import React, { useState, useEffect} from "react";
 import AboutBird from "./AboutBird";
+import "../pages/HomeBirds.css";
 
 const HomeBirds = ({birds}) => {
     const [birdsQuery, setBirdsQuery] = useState("");
-    const [filteredBirds, setfilteredBirds] = useState([]);
-    const [selectedMammals, setselectedMammals] = useState(null);
+    const [filteredBirds, setFilteredBirds] = useState([]);
+    const [selectedBirds, setSelectedBirds] = useState(null);
 
     useEffect(() => {
-        setfilteredBirds(birds);
+        setFilteredBirds(birds);
     }, [birds]);
 
     const handleBirdsSearch = (b) =>{
-        setBirdsQuery(m.target.value);
+        setBirdsQuery(b.target.value);
 
-        const filteredBirds = birds.filter((bird)=>{
-            bird.name.toLowerCase().includes(b.target.value.toLowerCase());
-        })
-        setfilteredBirds(filteredBirds);
+        const filteredBirds = birds.filter((bird)=>
+            bird.name.toLowerCase().includes(b.target.value.toLowerCase())
+        )
+        setFilteredBirds(filteredBirds);
     };
 
-    const handleBirdsClick = (bird) =>{
+    const handleBirdsClick = (bird) => {
         setSelectedBirds(selectedBirds =>(selectedBirds === bird ? null : bird));
     }
     return(
@@ -39,7 +40,7 @@ const HomeBirds = ({birds}) => {
             </div>
             <div className="col-md-6">
             <div className="bird-about">
-                        {selectedbirds && <AboutBird bird={selectedBirds}/>}
+                        {selectedBirds && <AboutBird bird={selectedBirds}/>}
                     </div>
             </div>
         </div>

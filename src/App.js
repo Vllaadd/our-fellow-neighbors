@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import HomeTrees from './pages/HomeTrees';
 import HomeFish from './pages/HomeFish';
 import HomeMammals from './pages/HomeMammals';
+import HomeBirds from './pages/HomeBirds';
 
 function App() {
   return (

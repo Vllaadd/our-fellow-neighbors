@@ -26,6 +26,7 @@ const birdsData = [
         conservationStatus: "Least Concern",
         funFact: "House Sparrows are adaptable and often seen near human habitation."
     },{
+        img: require('../assets/birds/rock-pigeon.jpeg'),
         name: "Rock Pigeon (Pigeon)",
         lifeSpan: "Average lifespan in the wild is 3 to 5 years.",
         migration: "Non-migratory bird that has adapted to urban environments worldwide.",
@@ -265,3 +266,5 @@ const birdsData = [
         funFact: "Ring-billed Gulls are often found in urban and suburban areas, scavenging for food."
     }
 ];
+
+export default birdsData;

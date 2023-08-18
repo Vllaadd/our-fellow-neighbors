@@ -1,10 +1,10 @@
 import React from "react";
 
-const AboutBird = () =>{
+const AboutBird = ({bird}) =>{
     return(
         <div>
             <h1>{bird.name}</h1>
-            <img className="bird-img" src={bird.img} alt="Tree" />
+            <img className="tree-img" src={bird.img} alt="Bird" />
             <p><strong>Name:</strong>{bird.name}</p>
             <p><strong>Migration:</strong>{bird.migration}</p>
             <p><strong>Reproduction:</strong>{bird.reproduction}</p>
