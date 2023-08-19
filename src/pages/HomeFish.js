@@ -27,6 +27,11 @@ const HomeFish = ({ fish }) => {
     return (
         <div className="container">
             <div className="row">
+            <div className="col-md-6">
+                <div className="fish-about">
+                            {selectedFish && <AboutFish fishie={selectedFish}/>}
+                        </div>
+                </div>
                 <div className="col-md-6">
                 <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Find Your Fish" aria-label="Find Your Fish" aria-describedby="button-addon2" onChange={handleFishSearch} value={fishQuery}></input>
@@ -39,11 +44,7 @@ const HomeFish = ({ fish }) => {
                             </ul>
                         </div>
                 </div>
-                <div className="col-md-6">
-                <div className="fish-about">
-                            {selectedFish && <AboutFish fishie={selectedFish}/>}
-                        </div>
-                </div>
+               
             </div>
         </div>
     )

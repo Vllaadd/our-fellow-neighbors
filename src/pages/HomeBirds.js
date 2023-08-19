@@ -26,6 +26,11 @@ const HomeBirds = ({birds}) => {
     return(
         <div className="container">
         <div className="row">
+        <div className="col-md-6">
+            <div className="bird-about">
+                        {selectedBirds && <AboutBird bird={selectedBirds}/>}
+                    </div>
+            </div>
             <div className="col-md-6">
             <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Find Your Bird" aria-label="Find Your Bird" aria-describedby="button-addon2" onChange={handleBirdsSearch} value={birdsQuery}></input>
@@ -38,11 +43,7 @@ const HomeBirds = ({birds}) => {
                         </ul>
                     </div>
             </div>
-            <div className="col-md-6">
-            <div className="bird-about">
-                        {selectedBirds && <AboutBird bird={selectedBirds}/>}
-                    </div>
-            </div>
+            
         </div>
     </div>
     )

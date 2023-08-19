@@ -38,24 +38,7 @@ const HomeTrees = ({ trees }) => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
-                    <div className="row">
-                        <div className="input-group mb-3">
-                            <input type="text" className="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleTreeSearch} value={treeQuery}></input>
-                        </div>
-                        <div className="tree-list">
-                            <ul className="list-group">
-                                {filteredTrees.map((tree, index) => (
-                                    <li key={index} className="list-group-item" onClick={() => handleTreeClick(tree)}>{tree.type}</li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="tree-about">
-                            {selectedTree && <AboutTrees tree={selectedTree}/>}
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6">
+            <div className="col-md-6">
                     <div className="google-map">
                         <LoadScript
                             googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
@@ -75,6 +58,24 @@ const HomeTrees = ({ trees }) => {
                         </LoadScript>
                     </div>
                 </div>
+                <div className="col-md-6">
+                    <div className="row">
+                        <div className="input-group mb-3">
+                            <input type="text" className="form-control" placeholder="Find Your Tree" aria-label="Find Your Tree" aria-describedby="button-addon2" onChange={handleTreeSearch} value={treeQuery}></input>
+                        </div>
+                        <div className="tree-list">
+                            <ul className="list-group">
+                                {filteredTrees.map((tree, index) => (
+                                    <li key={index} className="list-group-item" onClick={() => handleTreeClick(tree)}>{tree.type}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="tree-about">
+                            {selectedTree && <AboutTrees tree={selectedTree}/>}
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

@@ -1,0 +1,25 @@
+body {
+    background-image: url('/src/assets/welcome-page.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.welcome-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.welcome-paragraph {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 300px;
+    padding: 20px;
+}

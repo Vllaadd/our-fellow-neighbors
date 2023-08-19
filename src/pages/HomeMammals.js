@@ -26,6 +26,11 @@ const HomeMammals = ({mammals}) => {
     return(
         <div className="container">
             <div className="row">
+            <div className="col-md-6">
+                <div className="mammal-about">
+                            {selectedMammals && <AboutMammal mammal={selectedMammals}/>}
+                        </div>
+                </div>
                 <div className="col-md-6">
                 <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Find Your Mammal" aria-label="Find Your Mammal" aria-describedby="button-addon2" onChange={handleMammalSearch} value={mammalQuery}></input>
@@ -38,11 +43,7 @@ const HomeMammals = ({mammals}) => {
                             </ul>
                         </div>
                 </div>
-                <div className="col-md-6">
-                <div className="mammal-about">
-                            {selectedMammals && <AboutMammal mammal={selectedMammals}/>}
-                        </div>
-                </div>
+                
             </div>
         </div>
     )
