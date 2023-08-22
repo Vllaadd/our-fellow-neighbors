@@ -1,5 +1,5 @@
 body {
-    background-image: url('/src/assets/welcome-page.jpeg');
+    background-image: url('/src//assets//welcome-page.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,6 +13,8 @@ body {
     margin-top: 100px;
     padding: 10px;
     margin-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .welcome-paragraph {
@@ -20,6 +22,8 @@ body {
     color: white;
     text-align: center;
     border-radius: 10px;
-    padding: 50px 200px;
+    padding: 50px 100px;
     margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -4,9 +4,11 @@
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
-    height: 90px;
+    height: 80px;
     width: 100%;
     z-index: 1000;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .app-name{
