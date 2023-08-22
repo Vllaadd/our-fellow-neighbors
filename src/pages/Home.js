@@ -3,8 +3,8 @@ import '../pages/css/Home.css';
 
 const Home = () => {
     return (
-        <div class="container">
-            <div class="row">
+        <div className="container">
+            <div className="row">
                 <div className="col-md-4"></div>
                 <div className="col-md-8">
                 <div className="welcome-title">
