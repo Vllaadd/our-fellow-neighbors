@@ -3,8 +3,8 @@
     top: 0;
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
-    height: 80px;
+    background-color: rgba(230, 230, 250);
+    height: 60px;
     width: 100%;
     z-index: 1000;
     font-family: 'Amatic SC', cursive;
