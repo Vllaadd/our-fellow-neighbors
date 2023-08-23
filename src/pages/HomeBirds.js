@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from "react";
 import AboutBird from "./AboutBird";
 import "../pages/css/HomeBirds.css";
+import welcomeBirds from '../assets/welcome-birds.avif';
 
 const HomeBirds = ({birds}) => {
     const [birdsQuery, setBirdsQuery] = useState("");
@@ -28,6 +29,7 @@ const HomeBirds = ({birds}) => {
         <div className="row">
         <div className="col-md-6">
             <div className="bird-about">
+                <img className='welcome-birds' src={welcomeBirds} alt="birds on a wire" /> 
                         {selectedBirds && <AboutBird bird={selectedBirds}/>}
                     </div>
             </div>

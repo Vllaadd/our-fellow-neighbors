@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AboutMammal from './AboutMammal';
+import racoonWelcome from '../assets/welcome-racoon.jpeg';
 
 
 const HomeMammals = ({mammals}) => {
@@ -28,6 +29,7 @@ const HomeMammals = ({mammals}) => {
             <div className="row">
             <div className="col-md-6">
                 <div className="mammal-about">
+                    <img src={racoonWelcome} alt='racoon' />
                             {selectedMammals && <AboutMammal mammal={selectedMammals}/>}
                         </div>
                 </div>

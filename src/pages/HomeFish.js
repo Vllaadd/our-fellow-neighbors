@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/HomeFish.css';
 import AboutFish from "./AboutFish";
+import welcomeFish from '../assets/welcome-fish.jpeg';
 
 const HomeFish = ({ fish }) => {
     const [fishQuery, setFishQuery] = useState("")
@@ -28,6 +29,7 @@ const HomeFish = ({ fish }) => {
         <div className="container">
             <div className="row">
             <div className="col-md-6">
+                <img className='welcome-fish' src={welcomeFish} />
                 <div className="fish-about">
                             {selectedFish && <AboutFish fishie={selectedFish}/>}
                         </div>

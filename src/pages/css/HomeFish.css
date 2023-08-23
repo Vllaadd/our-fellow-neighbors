@@ -7,3 +7,9 @@
     max-height: 600px;
     overflow-y: auto;
 }
+
+.welcome-fish{
+    width: 300px; 
+    height: 300px; 
+    padding-top: 100px;
+}
