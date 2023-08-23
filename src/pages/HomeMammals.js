@@ -30,6 +30,11 @@ const HomeMammals = ({mammals}) => {
             <div className="col-md-6">
                 <div className="mammal-about">
                     <img src={racoonWelcome} alt='racoon' />
+                    <p>Despite being a densely populated urban area, the city's parks, 
+                        green spaces, and waterfronts provide habitats for a variety of 
+                        mammal species. Take a look – I'm sure some of the species will 
+                        be a surprise.
+                    </p>
                             {selectedMammals && <AboutMammal mammal={selectedMammals}/>}
                         </div>
                 </div>

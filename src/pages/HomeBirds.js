@@ -30,6 +30,11 @@ const HomeBirds = ({birds}) => {
         <div className="col-md-6">
             <div className="bird-about">
                 <img className='welcome-birds' src={welcomeBirds} alt="birds on a wire" /> 
+                <p>Please explore some of the bird species found in New York and know that this list is not final. 
+                    Over 400 bird species has been recorded in New York City. This includes
+                    both resident bird species and those that migrate through the area during different
+                    seasons.
+                </p>
                         {selectedBirds && <AboutBird bird={selectedBirds}/>}
                     </div>
             </div>

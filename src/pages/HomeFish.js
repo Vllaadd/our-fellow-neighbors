@@ -30,6 +30,12 @@ const HomeFish = ({ fish }) => {
             <div className="row">
             <div className="col-md-6">
                 <img className='welcome-fish' src={welcomeFish} />
+                <p>New Yorkers are fortunate to be surrounded by water. Wherever you are in NYC, 
+                    you are close to some body of water — the Hudson River, East River, Upper New York Bay, 
+                    Jamaica Bay, Gowanus Canal, Flushing Bay, the Atlantic Ocean, just to name a few. The list
+                     on this page is only a part of the final compilation of all the fish species that
+                      live in this magnificent city. 
+                    Please take the time to explore. </p>
                 <div className="fish-about">
                             {selectedFish && <AboutFish fishie={selectedFish}/>}
                         </div>
