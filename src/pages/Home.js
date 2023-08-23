@@ -1,11 +1,14 @@
 import React from "react";
 import '../pages/css/Home.css';
+import welcomeImage from '../assets/birds-on-wire.png';
 
 const Home = () => {
     return (
         <div className="container">
-            <div className="row">
-                <div className="col-md-4"></div>
+            <div className="row align-items-center">
+                <div className="col-md-4">
+                <img className="welcome-img" src={welcomeImage} alt="A bird in Manhattan" />
+                </div>
                 <div className="col-md-8">
                 <div className="welcome-title">
                         <h3>Hello neighbor! </h3>
