@@ -1,3 +1,7 @@
+.container{
+    margin-top: 100px;
+}
+
 .banner{
     position: fixed;
     top: 0;
@@ -22,12 +26,15 @@
     color: #333;
 }
 
-.img{
-    width: 10px;
-    height: 10px;
-    object-fit: cover;
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Adjust the width of your logo */
+    z-index: 999; /* Ensure the logo is above other content */
 }
 
-.container{
-    margin-top: 100px;
+.logo img {
+    width: 100%;
+    height: auto;
 }
