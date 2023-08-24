@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AboutBird from "./AboutBird";
 import "../pages/css/HomeAnimals.css";
-import welcomeBirds from '../assets/welcome-birds.avif';
+import welcomeBirds from '../assets/raindbow-birds.jpeg';
 
 const HomeBirds = ({ birds }) => {
     const [birdsQuery, setBirdsQuery] = useState("");

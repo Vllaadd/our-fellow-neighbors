@@ -35,8 +35,7 @@ const HomeFish = ({ fish }) => {
                             you are close to some body of water — the Hudson River, East River, Upper New York Bay,
                             Jamaica Bay, Gowanus Canal, Flushing Bay, the Atlantic Ocean, just to name a few. The list
                             on this page is only a part of the final compilation of all the fish species that
-                            live in this magnificent city.
-                            Please take the time to explore. </p>
+                            live in waters of our magnificent city. Please take the time to explore. </p>
                     </div>
                         {selectedFish && <AboutFish fishie={selectedFish} />}
                 </div>
