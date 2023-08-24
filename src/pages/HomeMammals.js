@@ -8,6 +8,7 @@ const HomeMammals = ({ mammals }) => {
     const [mammalQuery, setMammalQuery] = useState("");
     const [filteredMammals, setFilteredMammals] = useState([]);
     const [selectedMammals, setSelectedMammals] = useState(null);
+    const [showAboutMammals, setShowAboutMammals] = useState(false);
 
     useEffect(() => {
         setFilteredMammals(mammals);
@@ -24,21 +25,25 @@ const HomeMammals = ({ mammals }) => {
 
     const handleMammalClick = (mammal) => {
         setSelectedMammals(selectedMammals => (selectedMammals === mammal ? null : mammal));
+        setShowAboutMammals(true);
     }
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <div className="animal-about">
+                    {showAboutMammals ? (
+                        <AboutMammal mammal={selectedMammals} />
+                    ) : (
+                        <div className="animal-about">
                         <img className='animal-image' src={racoonWelcome} alt='racoon' />
                         <p className='animal-text'>Despite being a densely populated urban area, the city's parks,
                             green spaces, and waterfronts provide habitats for a variety of
                             mammal species. Take a look – I'm sure some of the species will
                             be a surprise.
                         </p>
-                        {selectedMammals && <AboutMammal mammal={selectedMammals} />}
+                        </div>
+                    )}
                     </div>
-                </div>
                 <div className="col-md-6">
                     <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Find Your Mammal" aria-label="Find Your Mammal" aria-describedby="button-addon2" onChange={handleMammalSearch} value={mammalQuery}></input>

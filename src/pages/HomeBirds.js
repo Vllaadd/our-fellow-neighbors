@@ -7,6 +7,7 @@ const HomeBirds = ({ birds }) => {
     const [birdsQuery, setBirdsQuery] = useState("");
     const [filteredBirds, setFilteredBirds] = useState([]);
     const [selectedBirds, setSelectedBirds] = useState(null);
+    const [showAboutBirds, setShowAboutBirds] = useState(false);
 
     useEffect(() => {
         setFilteredBirds(birds);
@@ -23,20 +24,24 @@ const HomeBirds = ({ birds }) => {
 
     const handleBirdsClick = (bird) => {
         setSelectedBirds(selectedBirds => (selectedBirds === bird ? null : bird));
+        setShowAboutBirds(true);
     }
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <div className="animal-about">
+                    {showAboutBirds? (
+                        <AboutBird bird={selectedBirds} />
+                    ) : (
+                        <div className="animal-about">
                         <img className='animal-image' src={welcomeBirds} alt="birds on a wire" />
                         <p className="animal-text">Please explore some of the bird species found in New York and know that this list is not final.
                             Over 400 bird species has been recorded in New York City. This includes
                             both resident bird species and those that migrate through the area during different
                             seasons.
                         </p>
-                        {selectedBirds && <AboutBird bird={selectedBirds} />}
-                    </div>
+                        </div>
+                    )}
                 </div>
                 <div className="col-md-6">
                     <div className="input-group mb-3">
