@@ -6,9 +6,6 @@ const Banner = () => {
     return (
         <>
             <div className="banner">
-                <div className="logo">
-                    <img src={require("../assets/empire-state-building.jpeg")} alt="Webpage Logo" />
-                </div>
                 <div className="app-name">
                     <h1>Our Fellow Neighbors</h1>
                 </div>

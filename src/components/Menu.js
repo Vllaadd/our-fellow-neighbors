@@ -7,6 +7,9 @@ const Menu = () => {
         <>
             <nav>
                 <table className="menu">
+                <div className="logo">
+                    <img src={require("../assets/Empire-State-Logo.png")} alt="Webpage Logo" />
+                </div>
                     <tr>
                         <td><Link to="/home">Home</Link></td>
                     </tr>

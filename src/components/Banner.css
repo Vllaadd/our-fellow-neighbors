@@ -1,14 +1,11 @@
-.container{
-    margin-top: 100px;
-}
-
 .banner{
     position: fixed;
     top: 0;
+    margin-left: 80px;
     display: flex;
     align-items: center;
     background-color: rgba(230, 230, 250);
-    height: 60px;
+    height: 52px;
     width: 100%;
     z-index: 1000;
     font-family: 'Amatic SC', cursive;
@@ -17,24 +14,12 @@
 
 .app-name{
     flex: 1;
+    margin-left: 20px;
 }
 
 .app-name h1{
-    margin-left: 20px;
     font-size: 24px;
     font-weight: bold;
     color: #333;
 }
 
-.logo {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    width: 50px; /* Adjust the width of your logo */
-    z-index: 999; /* Ensure the logo is above other content */
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-}
