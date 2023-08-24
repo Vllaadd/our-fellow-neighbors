@@ -16,14 +16,18 @@
 }
 
 .animal-image{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .animal-text{
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
+    background-color: rgba(173, 216, 230, 0.3);
+    color: black;
+    border-radius: 10px;
 }
 
 
