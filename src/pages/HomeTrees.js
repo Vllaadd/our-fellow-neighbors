@@ -38,7 +38,7 @@ const HomeTrees = ({ trees }) => {
     return (
         <div className="container">
             <div className="row">
-            <div className="col-md-6">
+                <div className="col-md-6">
                     <div className="google-map">
                         <LoadScript
                             googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
@@ -71,11 +71,11 @@ const HomeTrees = ({ trees }) => {
                             </ul>
                         </div>
                         <div className="tree-about">
-                            {selectedTree && <AboutTrees tree={selectedTree}/>}
+                            {selectedTree && <AboutTrees tree={selectedTree} />}
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     )

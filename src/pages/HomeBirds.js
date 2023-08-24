@@ -1,9 +1,9 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import AboutBird from "./AboutBird";
 import "../pages/css/HomeBirds.css";
 import welcomeBirds from '../assets/welcome-birds.avif';
 
-const HomeBirds = ({birds}) => {
+const HomeBirds = ({ birds }) => {
     const [birdsQuery, setBirdsQuery] = useState("");
     const [filteredBirds, setFilteredBirds] = useState([]);
     const [selectedBirds, setSelectedBirds] = useState(null);
@@ -12,47 +12,47 @@ const HomeBirds = ({birds}) => {
         setFilteredBirds(birds);
     }, [birds]);
 
-    const handleBirdsSearch = (b) =>{
+    const handleBirdsSearch = (b) => {
         setBirdsQuery(b.target.value);
 
-        const filteredBirds = birds.filter((bird)=>
+        const filteredBirds = birds.filter((bird) =>
             bird.name.toLowerCase().includes(b.target.value.toLowerCase())
         )
         setFilteredBirds(filteredBirds);
     };
 
     const handleBirdsClick = (bird) => {
-        setSelectedBirds(selectedBirds =>(selectedBirds === bird ? null : bird));
+        setSelectedBirds(selectedBirds => (selectedBirds === bird ? null : bird));
     }
-    return(
+    return (
         <div className="container">
-        <div className="row">
-        <div className="col-md-6">
-            <div className="bird-about">
-                <img className='welcome-birds' src={welcomeBirds} alt="birds on a wire" /> 
-                <p>Please explore some of the bird species found in New York and know that this list is not final. 
-                    Over 400 bird species has been recorded in New York City. This includes
-                    both resident bird species and those that migrate through the area during different
-                    seasons.
-                </p>
-                        {selectedBirds && <AboutBird bird={selectedBirds}/>}
+            <div className="row">
+                <div className="col-md-6">
+                    <div className="bird-about">
+                        <img className='bird-image' src={welcomeBirds} alt="birds on a wire" />
+                        <p className="bird-text">Please explore some of the bird species found in New York and know that this list is not final.
+                            Over 400 bird species has been recorded in New York City. This includes
+                            both resident bird species and those that migrate through the area during different
+                            seasons.
+                        </p>
+                        {selectedBirds && <AboutBird bird={selectedBirds} />}
                     </div>
-            </div>
-            <div className="col-md-6">
-            <div className="input-group mb-3">
-                    <input type="text" className="form-control" placeholder="Find Your Bird" aria-label="Find Your Bird" aria-describedby="button-addon2" onChange={handleBirdsSearch} value={birdsQuery}></input>
                 </div>
-                <div className="bird-list">
+                <div className="col-md-6">
+                    <div className="input-group mb-3">
+                        <input type="text" className="form-control" placeholder="Find Your Bird" aria-label="Find Your Bird" aria-describedby="button-addon2" onChange={handleBirdsSearch} value={birdsQuery}></input>
+                    </div>
+                    <div className="bird-list">
                         <ul className="list-group">
                             {filteredBirds.map((bird, index) => (
                                 <li key={index} className="list-group-item" onClick={() => handleBirdsClick(bird)}>{bird.name}</li>
                             ))}
                         </ul>
                     </div>
+                </div>
+
             </div>
-            
         </div>
-    </div>
     )
 }
 

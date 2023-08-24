@@ -1,15 +1,28 @@
-.container{
-    padding-top: 25px;
+.container {
+    padding-top: 100px;
     padding-left: 125px;
 }
 
-.bird-list{
+.bird-list {
     max-height: 500px;
     overflow-y: auto;
 }
 
-.welcome-birds{
-    width: 300px; 
-    height: 300px; 
-    padding-top: 100px;
+.bird-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
+
+.bird-image{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.bird-text{
+    text-align: center;
+    padding-top: 25px;
+}
+
