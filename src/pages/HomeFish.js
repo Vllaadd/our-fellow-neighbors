@@ -29,9 +29,9 @@ const HomeFish = ({ fish }) => {
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <div className='fish-about'>
-                        <img className='fish-image' src={welcomeFish} />
-                        <p className='fish-text'>New Yorkers are fortunate to be surrounded by water. Wherever you are in NYC,
+                    <div className='animal-about'>
+                        <img className='animal-image' src={welcomeFish} />
+                        <p className='animal-text'>New Yorkers are fortunate to be surrounded by water. Wherever you are in NYC,
                             you are close to some body of water — the Hudson River, East River, Upper New York Bay,
                             Jamaica Bay, Gowanus Canal, Flushing Bay, the Atlantic Ocean, just to name a few. The list
                             on this page is only a part of the final compilation of all the fish species that
@@ -44,7 +44,7 @@ const HomeFish = ({ fish }) => {
                     <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Find Your Fish" aria-label="Find Your Fish" aria-describedby="button-addon2" onChange={handleFishSearch} value={fishQuery}></input>
                     </div>
-                    <div className="fish-list">
+                    <div className="animal-list">
                         <ul className="list-group">
                             {filteredFish.map((fishie, index) => (
                                 <li key={index} className="list-group-item" onClick={() => handleFishClick(fishie)}>{fishie.name}</li>

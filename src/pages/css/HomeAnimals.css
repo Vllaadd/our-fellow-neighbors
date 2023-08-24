@@ -1,28 +1,29 @@
-.container{
-    padding-top: 25px;
+.container {
+    padding-top: 100px;
     padding-left: 125px;
 }
 
-.fish-list{
-    max-height: 600px;
+.animal-list {
+    max-height: 500px;
     overflow-y: auto;
 }
 
-.fish-about{
+.animal-about{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
 }
 
-.fish-image{
+.animal-image{
     margin-bottom: 10px;
     width: 300px;
     height: 200px;
 }
 
-.fish-text{
+.animal-text{
     text-align: center;
     padding-top: 25px;
 }
+
 
