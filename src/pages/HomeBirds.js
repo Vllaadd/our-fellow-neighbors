@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AboutBird from "./AboutBird";
-import "../pages/css/HomeBirds.css";
+import "../pages/css/HomeAnimals.css";
 import welcomeBirds from '../assets/welcome-birds.avif';
 
 const HomeBirds = ({ birds }) => {

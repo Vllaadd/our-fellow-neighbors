@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './css/HomeFish.css';
+import './css/HomeAnimals.css';
 import AboutFish from "./AboutFish";
 import welcomeFish from '../assets/welcome-fish.jpeg';
 

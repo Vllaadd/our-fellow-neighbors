@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AboutMammal from './AboutMammal';
 import racoonWelcome from '../assets/welcome-racoon.jpeg';
-import './css/HomeMammal.css';
+import './css/HomeAnimals.css';
 
 
 const HomeMammals = ({ mammals }) => {
