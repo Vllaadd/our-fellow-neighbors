@@ -14,13 +14,12 @@ const Home = () => {
                         <h3>Hello neighbor! </h3>
                     </div>
                     <div className="welcome-paragraph">
-                        <p>I created this website in order to practice
-                            my coding skills, but also out of love and
-                            respect for nature which is richer and more
-                            diverse in this concrete jungle than most
-                            people think. Please go through pages and get
-                            familiar with all those beautiful non-human
-                            fellow New Yorkers.</p>
+                        <p>New York takes pride in being one of the most culturally diverse cities 
+                            in the world. Not everybody knows that its nature is equally diverse and
+                             beautiful. Believing that we, as humans, cannot thrive unless we respect 
+                             the balance with all living species on this planet, I created this website 
+                             to raise awareness of our beautiful non-human neighbors in our 
+                             great city of New York. </p>
                     </div>
                 </div>
             </div>
