@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vllaadd/find-your-tree.git"
+    "url": "git+https://github.com/Vllaadd/our-fellow-neighbors.git"
   },
   "author": "Vlad Zizic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vllaadd/find-your-tree/issues"
+    "url": "https://github.com/Vllaadd/our-fellow-neighbors/issues"
   },
   "homepage": "/home",
   "dependencies": {
