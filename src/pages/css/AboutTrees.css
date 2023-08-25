@@ -2,6 +2,7 @@
     width: 400px; 
     height: 250px; 
     border: 1px solid #ccc; 
+    border-radius: 2%;
     margin-bottom: 10px; 
     object-fit: cover; 
     display: block; 

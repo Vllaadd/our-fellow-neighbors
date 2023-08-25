@@ -1,5 +1,5 @@
 import React from "react";
-import './AboutMammal.css'
+import './css/AboutFacts.css';
 
 const AboutMammal = ({mammal}) => {
     return (

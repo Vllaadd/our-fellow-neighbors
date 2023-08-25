@@ -39,6 +39,9 @@ const HomeTrees = ({ trees }) => {
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
+                    <div className="tree-about">
+                        {selectedTree && <AboutTrees tree={selectedTree} />}
+                    </div>
                     <div className="google-map">
                         <LoadScript
                             googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
@@ -69,9 +72,6 @@ const HomeTrees = ({ trees }) => {
                                     <li key={index} className="list-group-item" onClick={() => handleTreeClick(tree)}>{tree.type}</li>
                                 ))}
                             </ul>
-                        </div>
-                        <div className="tree-about">
-                            {selectedTree && <AboutTrees tree={selectedTree} />}
                         </div>
                     </div>
                 </div>

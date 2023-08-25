@@ -4,55 +4,57 @@ const fishData = [
         name: "Striped Bass",
         behaviorAndDiet: "Striped Bass are known for their migratory behavior. They often move between saltwater and freshwater habitats, making them anadromous. They typically spawn in freshwater rivers and then migrate to coastal and marine waters. Their diet consists of various fish, such as menhaden, herring, and shad, as well as crustaceans and squid.",
         lifeSpan: "Striped Bass can live up to 30 years or more, depending on environmental conditions and fishing pressures.",
-        reproductionAndLifeCycle: "Striped Bass reproduce in freshwater rivers. Adults migrate upstream to spawn, with females releasing their eggs and males releasing sperm. The fertilized eggs hatch into larvae, which drift downstream into brackish or saltwater environments. As they grow, the young bass move to coastal waters, eventually becoming adults."
+        reproductionAndLifeCycle: "Striped Bass reproduce in freshwater rivers. Adults migrate upstream to spawn, with females releasing their eggs and males releasing sperm. The fertilized eggs hatch into larvae, which drift downstream into brackish or saltwater environments. As they grow, the young bass move to coastal waters, eventually becoming adults.",
+        funFact: "Striped Bass are known for their distinctive black stripes running along their sides."
     }, {
         img: require('../assets/fish/Bbuefish.jpeg'),
         name: "Bluefish",
         behaviorAndDiet: "Bluefish are highly migratory and can be found in both coastal and offshore waters. They are known for their voracious feeding habits and are often referred to as 'choppers' due to their sharp teeth. Their diet primarily consists of smaller fish, such as menhaden, herring, and anchovies, as well as squid and crustaceans.",
         lifeSpan: "Bluefish have a relatively short life span, typically living up to around 9 to 10 years.",
         reproductionAndLifeCycle: "Bluefish reproduce through broadcast spawning, where females release eggs into the water and males release sperm to fertilize them. After hatching, the larvae drift in the ocean currents. As they grow, they move into coastal waters and estuaries, where they continue to develop.",
+        funFact: "Bluefish are highly sought after by anglers for their strong fighting ability."
     }, {
         img: require('../assets/fish/flounder.jpeg'),
         name: "Flounder",
         behaviorAndDiet: "Flounder are flatfish known for their unique body shape, with both eyes located on one side of their body. They are bottom-dwelling fish that spend much of their time lying camouflaged on the ocean floor. Flounder are ambush predators, feeding on smaller fish and crustaceans that they capture by lying in wait and striking quickly.",
         lifeSpan: "Flounder can have varying life spans depending on the species and environmental factors. On average, they may live for about 7 to 10 years.",
-        reproductionAndLifeCycle: "Flounder go through an interesting metamorphosis as they grow. They start out as symmetrical larvae but undergo a transformation where one eye migrates to the opposite side of their body, allowing them to lay flat on the ocean floor. Flounder reproduce by releasing eggs into the water, where they are fertilized externally. The larvae hatch and eventually settle on the ocean floor."
-
+        reproductionAndLifeCycle: "Flounder go through an interesting metamorphosis as they grow. They start out as symmetrical larvae but undergo a transformation where one eye migrates to the opposite side of their body, allowing them to lay flat on the ocean floor. Flounder reproduce by releasing eggs into the water, where they are fertilized externally. The larvae hatch and eventually settle on the ocean floor.",
+        funFact: "Flounder's ability to change color and texture allows them to blend with their surroundings."
     }, {
         img: require('../assets/fish/black-sea-bass.jpeg'),
         name: "Black Sea Bass",
         behaviorAndDiet: "Black Sea Bass are carnivorous fish that inhabit rocky reefs, wrecks, and other underwater structures. They have a varied diet that includes small fish, crustaceans, and squid. They are known for being opportunistic predators, lying in wait to ambush their prey.",
         lifeSpan: "Black Sea Bass have a relatively long life span, often living up to 20 years or more.",
-        reproductionAndLifeCycle: "Black Sea Bass reproduce through external fertilization. During spawning season, females release eggs into the water, and males release sperm to fertilize the eggs. The fertilized eggs develop into larvae that drift in ocean currents before settling in shallow waters and estuaries."
-
+        reproductionAndLifeCycle: "Black Sea Bass reproduce through external fertilization. During spawning season, females release eggs into the water, and males release sperm to fertilize the eggs. The fertilized eggs develop into larvae that drift in ocean currents before settling in shallow waters and estuaries.",
+        funFact: "Black Sea Bass are protandrous hermaphrodites, starting their lives as males and transitioning to females as they grow."
     }, {
         img: require('../assets/fish/porgy.jpeg'),
         name: "Porgy (Scup)",
         behaviorAndDiet: "Porgy, also known as Scup, are bottom-dwelling fish that inhabit nearshore waters and feed primarily on small crustaceans, mollusks, and other invertebrates. They use their specialized teeth to crush shells and extract food from the seabed.",
         lifeSpan: "Porgy typically have a life span of around 7 to 10 years, although this can vary depending on factors like habitat and food availability.",
-        reproductionAndLifeCycle: "Porgy reproduce through external fertilization. During spawning season, females release eggs into the water, and males release sperm to fertilize the eggs. The fertilized eggs develop into larvae that eventually settle in shallow coastal waters."
-
+        reproductionAndLifeCycle: "Porgy reproduce through external fertilization. During spawning season, females release eggs into the water, and males release sperm to fertilize the eggs. The fertilized eggs develop into larvae that eventually settle in shallow coastal waters.",
+        funFact: "Porgy are often referred to as 'Panfish' due to their delicious flavor and suitability for cooking in a pan."
     }, {
         img: require('../assets/fish/weakfish.jpeg'),
         name: "Weakfish",
         behaviorAndDiet: "Weakfish are predatory fish known for their sharp teeth and hunting behavior. They primarily feed on smaller fish, crustaceans, and squid. They are often active predators during low-light conditions such as dawn and dusk.",
         lifeSpan: "Weakfish have a relatively short life span, typically living for about 5 to 6 years. However, their longevity can vary depending on factors such as environmental conditions and predation.",
-        reproductionAndLifeCycle: "Weakfish have complex reproductive behavior. They are known for their hermaphroditic characteristics, where some individuals can change their sex from male to female. Spawning occurs in nearshore waters during the warmer months, with females releasing eggs and males releasing sperm."
-
+        reproductionAndLifeCycle: "Weakfish have complex reproductive behavior. They are known for their hermaphroditic characteristics, where some individuals can change their sex from male to female. Spawning occurs in nearshore waters during the warmer months, with females releasing eggs and males releasing sperm.",
+        funFact: "Weakfish get their name from their relatively fragile mouth structure, making them prone to losing bait during fishing."
     }, {
         img: require('../assets/fish/bluecrab.gif'),
         name: "Blue Crab",
         behaviorAndDiet: "Blue crabs are scavengers and opportunistic feeders. They have a varied diet that includes detritus, mollusks, small fish, algae, and even plant matter. They use their strong claws to crush and consume their prey.",
         lifeSpan: "Blue crabs typically have a lifespan of around 3 to 4 years. However, this can vary based on factors such as habitat conditions and predation.",
-        reproductionAndLifeCycle: "Female blue crabs mate shortly after molting, and the males transfer sperm to a specialized structure in the female's body. Females store the sperm until they are ready to fertilize their eggs. After fertilization, females carry the fertilized eggs on their abdomen until they hatch into larvae. The larvae go through several stages before developing into juvenile crabs."
-
+        reproductionAndLifeCycle: "Female blue crabs mate shortly after molting, and the males transfer sperm to a specialized structure in the female's body. Females store the sperm until they are ready to fertilize their eggs. After fertilization, females carry the fertilized eggs on their abdomen until they hatch into larvae. The larvae go through several stages before developing into juvenile crabs.",
+        funFact: "Blue Crabs are known for their distinctive 'blue' color, which is the result of a blue pigment in their shell."
     }, {
         img: require('../assets/fish/haddock.jpeg'),
         name: "Haddock",
         behaviorAndDiet: "Haddock are carnivorous fish that primarily feed on small fish, crustaceans, and bottom-dwelling organisms. They are known to be opportunistic feeders, adapting their diet based on the availability of prey.",
         lifeSpan: "Haddock typically have a lifespan of around 10 to 20 years, depending on factors such as habitat and fishing pressure.",
-        reproductionAndLifeCycle: "Haddock reproduction involves the release of eggs and sperm into the water column. After fertilization, the eggs develop into larval fish that drift in ocean currents. As they grow, haddock transition from a pelagic (open water) habitat to a demersal (bottom-dwelling) habitat. They undergo significant changes in body shape and behavior during their development."
-
+        reproductionAndLifeCycle: "Haddock reproduction involves the release of eggs and sperm into the water column. After fertilization, the eggs develop into larval fish that drift in ocean currents. As they grow, haddock transition from a pelagic (open water) habitat to a demersal (bottom-dwelling) habitat. They undergo significant changes in body shape and behavior during their development.",
+        funFact: "Haddock are often confused with their close relative, Cod, due to their similar appearance and habitat."
     }, {
         img: require('../assets/fish/pollock.jpeg'),
         name: "Pollock",
@@ -60,7 +62,6 @@ const fishData = [
         lifeSpan: "Pollock generally have a lifespan of around 15 to 20 years, although this can vary depending on factors such as habitat and fishing pressure.",
         reproductionAndLifeCycle: "Pollock reproduction involves the release of eggs and sperm into the water, where fertilization takes place. The larvae hatch from eggs and drift in ocean currents. As they grow, pollock undergo several stages of development, including transitioning from a pelagic (open water) habitat to a more demersal (bottom-dwelling) habitat.",
         funFact: "Pollock are widely used in the production of surimi, a seafood product commonly known as imitation crab meat. Surimi is made from the finely minced flesh of pollock and is a versatile ingredient in various dishes."
-
     }, {
         img: require('../assets/fish/red-hake.jpeg'),
         name: "Red Hake",
@@ -68,7 +69,6 @@ const fishData = [
         lifeSpan: "Red Hake typically have a lifespan of around 10 to 12 years, although this can vary depending on factors such as habitat conditions and fishing pressure.",
         reproductionAndLifeCycle: "Red Hake reproduce by releasing eggs and sperm into the water, where fertilization takes place. The larvae hatch from eggs and spend a portion of their early life in the planktonic stage, drifting in ocean currents. As they mature, they settle to the ocean floor and adopt a more demersal (bottom-dwelling) lifestyle.",
         funFact: "The name 'Red Hake' is derived from the reddish coloration on their pectoral fins. They are sometimes referred to as 'ling' in the northeastern United States."
-
     }, {
         img: require('../assets/fish/cunner.jpeg'),
         name: "Cunner",
@@ -76,7 +76,6 @@ const fishData = [
         lifeSpan: "Cunner typically have a lifespan of around 5 to 6 years, although this can vary based on factors such as habitat quality and predation pressure.",
         reproductionAndLifeCycle: "Cunner reproduce through the release of eggs and sperm into the water, where fertilization takes place. The eggs are pelagic (free-floating) and hatch into larvae, which then develop into juvenile fish. As they mature, cunner transition to a demersal (bottom-dwelling) lifestyle.",
         funFact: "Cunner are known for their vibrant and intricate coloration, often featuring shades of blue, green, yellow, and orange. Their distinctive appearance contributes to their popularity among marine enthusiasts."
-
     }, {
         img: require('../assets/fish/skates-rays.png'),
         name: "Skates and Rays (Various Species)",
@@ -84,7 +83,6 @@ const fishData = [
         lifeSpan: "The lifespan of skates and rays varies widely among species. Some may live for several years, while others can live for decades, depending on factors like size, habitat, and predation.",
         reproductionAndLifeCycle: "Skates and rays reproduce through internal fertilization. Males transfer sperm to females using specialized structures called claspers. The fertilized eggs are encased in leathery egg cases, which are often referred to as 'mermaid's purses.' After a period of development, the eggs hatch into miniature versions of the adults.",
         funFact: "Skates and rays are known for their unique reproductive strategy. The leathery egg cases they produce are often found washed up on beaches and can serve as indicators of the presence of these fascinating marine creatures."
-
     }, {
         img: require('../assets/fish/atlantic-silverside.jpeg'),
         name: "Atlantic Silverside",
@@ -92,7 +90,6 @@ const fishData = [
         lifeSpan: "Atlantic Silversides typically have a lifespan of about 1 to 2 years.",
         reproductionAndLifeCycle: "During the breeding season, male Atlantic Silversides compete for the attention of females through colorful displays and courtship behaviors. After mating, females lay adhesive eggs on submerged objects like vegetation and rocks. The eggs hatch within a week, and the larvae drift in coastal currents before settling into shallow nursery areas.",
         funFact: "Atlantic Silversides play a crucial role in coastal ecosystems by serving as both prey for larger animals and consumers of plankton. Their schooling behavior provides protection against predators and enhances their chances of survival."
-
     }, {
         img: require('../assets/fish/mummichog.jpeg'),
         name: "Mummichog (Atlantic Killifish)",
@@ -100,7 +97,6 @@ const fishData = [
         lifeSpan: "Mummichogs typically have a lifespan of about 2 to 3 years.",
         reproductionAndLifeCycle: "Mummichogs are known for their unique reproductive strategy called 'broadcast spawning.' During high tides, males and females release their eggs and sperm into the water, where fertilization occurs externally. The hatched larvae are carried by currents to shallow, protected areas where they mature.",
         funFact: "Mummichogs have a remarkable ability to tolerate changes in environmental conditions, including salinity and temperature fluctuations. This adaptability contributes to their success in a wide range of coastal habitats."
-
     }, {
         img: require('../assets/fish/bay-anchovy.jpeg'),
         name: "Bay Anchovy",
@@ -108,7 +104,6 @@ const fishData = [
         lifeSpan: "Bay anchovies typically have a lifespan of about 1 to 2 years.",
         reproductionAndLifeCycle: "Bay anchovies have a unique reproductive strategy. Females release adhesive eggs that attach to various substrates, such as vegetation or objects in the water. After hatching, the larvae go through several stages before reaching maturity.",
         funFact: "Bay anchovies are an essential part of the coastal ecosystem, playing a crucial role in transferring energy from lower trophic levels to higher trophic levels."
-
     }, {
         img: require('../assets/fish/sand-lance.png'),
         name: "Sand Lance",
@@ -116,7 +111,6 @@ const fishData = [
         lifeSpan: "Sand lances typically have a lifespan of 3 to 4 years.",
         reproductionAndLifeCycle: "Sand lances are unique in their reproductive strategy. They release their eggs directly into the water, where fertilization occurs externally. The eggs then hatch into larvae, which eventually develop into juvenile fish.",
         funFact: "Sand lances are well-adapted to their sandy environments, and their ability to burrow into the substrate provides them with protection from predators. Their abundance makes them a critical food source for various marine animals."
-
     }, {
         img: require('../assets/fish/menhaden.jpeg'),
         name: "Menhaden (Bunker)",
@@ -124,7 +118,6 @@ const fishData = [
         lifeSpan: "Menhaden typically have a lifespan of 3 to 5 years.",
         reproductionAndLifeCycle: "Menhaden reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The eggs hatch into larvae, which go through several developmental stages before becoming juvenile fish. They are an important forage species, providing food for many predators.",
         funFact: "Menhaden are known for their significant ecological role as filter feeders that help control plankton populations. Their oil-rich bodies have historically been used for various industrial and nutritional purposes."
-
     }, {
         img: require('../assets/fish/atlantic-needlefish.webp'),
         name: "Atlantic Needlefish",
@@ -132,7 +125,6 @@ const fishData = [
         lifeSpan: "Atlantic Needlefish typically have a lifespan of around 3 to 5 years.",
         reproductionAndLifeCycle: "Atlantic Needlefish reproduce by releasing eggs and sperm into the water, where fertilization occurs externally. The fertilized eggs hatch into larvae, which then go through various developmental stages before reaching adulthood. They are part of the larger food web, both as predators and potential prey for larger fish and birds.",
         funFact: "One of the distinctive features of Atlantic Needlefish is their elongated, slender bodies and their sharp, pointed beak. These features make them well-suited for hunting in shallow coastal waters and estuaries. They are also known for their ability to leap out of the water, which can sometimes lead to them inadvertently landing in boats or onshore areas."
-
     }, {
         img: require('../assets/fish/spot-fish.jpeg'),
         name: "Spot",
