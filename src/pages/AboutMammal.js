@@ -4,8 +4,8 @@ import './css/AboutFacts.css';
 const AboutMammal = ({mammal}) => {
     return (
         <>
-         <div>
-            <img className="tree-img" src={mammal.img} alt="Tree" />
+         <div className="welcome-image">
+            <img className="about-img" src={mammal.img} alt="Tree" />
         </div>
         <div className="about-facts">
             <h1>{mammal.name}</h1>

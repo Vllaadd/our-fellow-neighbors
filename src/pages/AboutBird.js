@@ -1,10 +1,11 @@
 import React from "react";
+import './css/AboutFacts.css';
 
 const AboutBird = ({ bird }) => {
     return (
         <>
-            <div>
-                <img className="tree-img" src={bird.img} alt="Bird" />
+            <div className="welcome-image">
+                <img className="about-img" src={bird.img} alt="Bird" />
             </div>
             <div className="about-facts">
                 <h1>{bird.name}</h1>

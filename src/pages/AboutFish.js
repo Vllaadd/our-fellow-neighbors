@@ -5,7 +5,7 @@ const AboutFish = ({ fishie }) => {
     return (
         <>
             <div>
-                <img className="tree-img" src={fishie.img} alt="Tree" />
+                <img className="about-img" src={fishie.img} alt="Tree" />
             </div>
             <div className="about-facts">
                 <h1>{fishie.name}</h1>

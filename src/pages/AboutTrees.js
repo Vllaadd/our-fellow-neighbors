@@ -1,13 +1,12 @@
 import React from "react";
-import './css/AboutTrees.css';
 import './css/AboutFacts.css';
 
 const AboutTrees = ({ tree }) => {
     return (
         <>
-            <div>
-                <img className="tree-img" src={tree.img.img} alt="Tree" />
-                <img className="tree-img" src={tree.img.leafImg} alt="Leaf" />
+            <div className="welcome-image">
+                <img className="about-img" src={tree.img.img} alt="Tree" />
+                <img className="about-img" src={tree.img.leafImg} alt="Leaf" />
             </div>
             <div className="about-facts">
                 <h1>{tree.type}</h1>
