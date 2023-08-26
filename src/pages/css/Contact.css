@@ -1,4 +1,12 @@
-.contact{
+.container{
     padding-top: 150px;
     padding-left: 150px;
+}
+
+.contact{
+    display: inline-block;
+    background-color: rgba(173, 216, 230, 0.3);
+    color: black;
+    border-radius: 10%;
+    padding: 5%;
 }
