@@ -1,7 +1,7 @@
 {
   "name": "our-fellow-neighbors",
   "version": "1.0.0",
-  "description": "",
+  "description": "A website created in React with several pages showing an image and most relevant facts on birds, mammals, fish and trees native to New York City",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
