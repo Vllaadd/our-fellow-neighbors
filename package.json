@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/Vllaadd/our-fellow-neighbors/issues"
   },
+  "homepage": "/",
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "bootstrap": "^5.3.1",
