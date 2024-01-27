@@ -2,7 +2,7 @@
 
 This breakdown details the technologies employed in each file of the project. Gain insights into the tools and concepts utilized to create the Our Fellow Neighbors.
 
-# HomeBirds.js
+## HomeBirds.js
 The explenations apply to `HomeFish.js`, `HomeTrees.js` and `HomeMammals.js`
 
 1. **React.js:**
