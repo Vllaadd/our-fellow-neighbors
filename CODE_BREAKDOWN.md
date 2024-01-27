@@ -43,3 +43,21 @@ The explenations apply to `HomeFish.js`, `HomeTrees.js` and `HomeMammals.js`
 13. **Functional Programming:**
     - Functional programming concepts are demonstrated through the use of array methods like `map` and the creation of event handling functions.
 
+## AboutBirds.js 
+The explenations apply to `AboutFish.js`, `AboutTrees.js` and `AboutMammals.js`
+
+1. **Props** 
+    - the component receives a prop ('bird') containing information about a specific bird. 
+
+2. **Image Rendering**
+    - An image of the bird (`bird.img`) is rendered using the `img` tag.
+    - Alt text is provided for the image to enhance accessibility.
+
+## Menu.js 
+
+1. **Routing:**
+   - React Router is a library for React.js that enables declarative routing in a single-page application. It allows developers to define how the application's UI should change in response to a change in the URL, providing a seamless adn dynamic user experience. 
+   - The menu items are associated with specific routes using the `to` prop of the `Link` component.
+   - Routes include "/home", "/trees", "/fish", "/mammals", "/birds", and "/contact".
+   - The `Link` component is an integral part of React Router, facilitating client-side navigation without triggering a full page reload.
+
